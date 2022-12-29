@@ -1,0 +1,50 @@
+<!-- ================================================================= -->
+<!-- genetox DTD
+
+    This is the Current DTD which NLM has written for
+     external use.
+
+    Comments and suggestions are welcome.
+     2002/02/11
+
+ -->
+<!-- ================================================================= -->
+<!ELEMENT genetox (DOC)+>
+<!ELEMENT DOC ((DOCNO|NameOfSubstance|CASRegistryNumber|DateRevised|
+acta|actb|asca|
+ascb|asta|astb|
+ccat|date|dosra|
+dosrb|gtn|refa|
+refb|resa|resb|
+rpta|rptb|sexa|
+sexb|spcta|spctb|
+sy|tax)*)>
+<!ELEMENT gena ((spcta|sexa|asta|asca|resa|acta|dosra|rpta|refa)*)>
+<!ELEMENT genb ((spctb|sexb|astb|ascb|resb|actb|dosrb|rptb|refb)*)>
+<!ELEMENT DOCNO (#PCDATA)>
+<!ELEMENT NameOfSubstance (#PCDATA)>
+<!ELEMENT CASRegistryNumber (#PCDATA)>
+<!ELEMENT DateRevised (#PCDATA)>
+<!ELEMENT acta (#PCDATA)>
+<!ELEMENT actb (#PCDATA)>
+<!ELEMENT asca (#PCDATA)>
+<!ELEMENT ascb (#PCDATA)>
+<!ELEMENT asta (#PCDATA)>
+<!ELEMENT astb (#PCDATA)>
+<!ELEMENT ccat (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT dosra (#PCDATA)>
+<!ELEMENT dosrb (#PCDATA)>
+<!ELEMENT gtn (#PCDATA)>
+<!ELEMENT refa (#PCDATA)>
+<!ELEMENT refb (#PCDATA)>
+<!ELEMENT resa (#PCDATA)>
+<!ELEMENT resb (#PCDATA)>
+<!ELEMENT rpta (#PCDATA)>
+<!ELEMENT rptb (#PCDATA)>
+<!ELEMENT sexa (#PCDATA)>
+<!ELEMENT sexb (#PCDATA)>
+<!ELEMENT spcta (#PCDATA)>
+<!ELEMENT spctb (#PCDATA)>
+<!ELEMENT sy (#PCDATA)>
+<!ELEMENT tax (#PCDATA)>

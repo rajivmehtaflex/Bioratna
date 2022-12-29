@@ -1,0 +1,1569 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Invitrodb MC5</title>
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/main.css">
+    <link rel="stylesheet" href="/assets/stylesheets/themes/yeti.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/javascripts/jquery-ui-1.10.3.custom.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/pdf.css">
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/tableborder.css">
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/select2.min.css">
+    <link rel="stylesheet" media="screen" href="/assets/stylesheets/select2-bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="/api/logos/GLOBAL/favicon/blob?default=images%2Ffavicon.png&x=1672158887222">
+    <script src="/assets/javascripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/noty/packaged/jquery.noty.packaged.min.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/main.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/select2.min.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/clipboard.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/jquery.cookie.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/javascriptRoutes"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+
+    <script>
+      console.log("Turning of console.log since we are in production mode");
+      var console = {};
+      console.log = function(){};
+    </script>
+  
+
+<!--
+
+
+ <script type="text/javascript" data-main="/assets/javascripts-min/main" src="/assets/javascripts/require.js"></script>
+-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrap">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="glyphicon-bar"></span>
+                  <span class="glyphicon-bar"></span>
+                  <span class="glyphicon-bar"></span>
+                </button>
+                
+                        <a class="navbar-brand" style="padding-top: 5px; padding-bottom: 5px" href="/">
+                            <img class="pull-left" style="height: 100%" src="/api/logos/GLOBAL/logo/blob" alt="LOGO">
+                        </a>
+                        
+                            <a class="navbar-brand" href="/">
+                                EPA-ORD-CCTE Clowder
+                            </a>
+                        
+                    
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Explore <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/spaces"><span class="glyphicon glyphicon-hdd"> </span> Spaces</a></li>
+                            
+
+                                
+                            <li><a href="/datasets"><span class="glyphicon glyphicon-briefcase"> </span> Datasets</a></li>
+                            <li><a href="/collections"><span class="glyphicon glyphicon-th-large"> </span> Collections</a></li>
+                            <li><a href="/extractors"><span class="glyphicon glyphicon-fullscreen"> </span> Extractors</a></li>
+                            
+                            
+                            
+                            <li><a href="/tags/list/ordered"> <span class="glyphicon glyphicon-tags"> </span>  Ordered Tags</a></li>
+                            <li><a href="/tags/list/weighted"><span class="glyphicon glyphicon-tags"> </span>  Weighted Tags</a></li>
+                            <li><a href="/metadata/search"> <span class="glyphicon glyphicon-search"> </span> Metadata Search</a></li>
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle nav-icon" data-toggle="dropdown" title="Help">Help<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="https://clowderframework.org/" target="_blank">About Clowder</a></li>
+                            <li><a href="/about">About this instance</a></li>
+                            
+                            <li><a href="/tos">Terms of Service</a></li>
+                            <li><a href="/swaggerUI" target="_blank">API</a></li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    
+                        <li>
+                            <form class="navbar-form" role="search" action="/search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search" name="query">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                    
+
+
+
+                    
+                            
+                                <li>
+                                    <a href="/signup" title="Sign up to the system">Sign up</a>
+                                </li>
+                            
+                            <li>
+                                <a href="/login" title="Login to the system"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                            </li>
+                        
+                </ul>
+            </div>
+    </div>
+    </div>
+    <div class="container">
+        
+    <link rel="stylesheet" href="/assets/stylesheets/glyphicon-animations.css">
+    <script src="/assets/javascripts/htmlEncodeDecode.js" language="javascript"></script>
+
+    <script type="text/javascript">
+        var spaceId = "62bb560ee4b07abf29f88fef";
+        var descLabel = "Description";
+    </script>
+	<div class="row">
+		<!-- left column -->
+		<div class="col-md-8">
+            <div class="row">
+                <ol class="breadcrumb">
+
+                
+                        
+                                   <li> <span class="glyphicon glyphicon-hdd"></span> <a href="/spaces/62bb560ee4b07abf29f88fef" title="invitrodb v3.5"> invitrodb v3.5</a></li>
+                        
+
+                    
+
+                        <li><span class="glyphicon glyphicon-briefcase"></span> <span title="Invitrodb MC5"> Invitrodb MC5</span></li>
+
+                </ol>
+
+                <div class="col-md-12 caption break-word dataset-title" id="ds-title">
+                    <h1 id="datasettitle" class="inline"> <span class="glyphicon glyphicon-briefcase" ></span> Invitrodb MC5</h1>
+                    
+
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+
+                        <li>Owner: <a href= "/profile/viewProfile/5c7fccd7ea2d07198b2aceab"> Jason Brown </a></li>
+                        <li>Created on Nov 03, 2022</li>
+                            
+                                
+                                    <li>Access: Public (Space Default)</li>
+                            
+                        
+
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <div id="edit-license">
+                        <li class="inline"><span id="licensetextdata">blank</span> <span id="rightsholderdata">blank</span></li>
+                            
+                        </div>
+                        
+
+<div id="collapseSix" class="accordion-body collapse">
+    <div class="panel panel-primary">
+        <div class="panel-body">
+        
+        </div>
+    </div>
+</div>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+        //Will have to modify the if check to see if there is data that specifies what should be selected
+        //Incoming data may specifiy the type of license, the name of the owner of the rights, the text
+        //describing the license rights, the URL for the license, and whether or not downloading is
+        //allowed.
+        var datasetLicenseType = "license3";
+        var datasetRightsHolder = "";
+        var datasetLicenseText = "All Rights Reserved";
+        var datasetLicenseUrl = "";
+        var datasetAllowDownload = "true";
+        var datasetImageBase = '/assets/images';
+        var datasetAuthorName = 'Jason Brown';
+
+        if (!false) {
+            updateInterface(datasetLicenseType, datasetRightsHolder, datasetLicenseText, datasetLicenseUrl, datasetAllowDownload,
+            datasetImageBase, datasetAuthorName);
+        }
+    });
+</script>
+<!-- End License elements -->
+
+                    </ul>
+                </div>
+                                
+            <div class="col-md-12 box-white-space" id='aboutcreators' data-dataset='6364026ee4b04f6bb1409eda'>
+                
+                    
+
+            <div id="ds_creators" class="inline">
+
+                
+            </div>
+            
+		</div>    
+        <div class="col-md-12 box-white-space" id="aboutdesc"><span>
+                    
+        			Description:
+        			</span> 
+                    <p id ="ds_description" class="inline abstract
+                    
+                    "> 
+                    
+                    </p>
+                    
+            </div>
+                <div class="col-xs-12">
+                    <hr/>
+                    <!-- If the user can add files to the dataset, the button is enabled, otherwise the button is present but disabled to provide consistent UE. -->
+                    
+                    
+                        <a id='download-url' href="#"
+                            onclick="window.open(jsRoutes.api.Datasets.download('6364026ee4b04f6bb1409eda', false, -1, true).url, '_blank');"
+                            class="btn btn-link" title="Download All Files as Zip" role="button">
+                            <span class="glyphicon glyphicon-download-alt"></span>
+                            Download All Files
+                        </a>
+                    
+                    
+                    
+                    
+
+
+
+
+                    
+                        
+
+
+
+
+                    
+                    
+                    
+                    
+                    
+                    
+
+
+                    <hr/>
+                </div>
+            </div>
+
+	    	<div class="tabbable" id="bottomDatasetTabbable"> <!-- Only required for left/right tabs -->
+                <ul class="nav nav-tabs margin-bottom-20" >
+                    <li role="presentation" class="active"><a href="#tab-files" role="tab" data-toggle="tab">Files </a></li>
+                    <li role="presentation"><a href="#tab-metadata" role="tab" data-toggle="tab">Metadata </a></li>
+                    <li role="presentation"><a href="#tab-extractions" role="tab" data-toggle="tab">Extractions </a></li>
+                    <li role="presentation"><a href="#tab-visua" role="tab" data-toggle="tab">Visualizations</a></li>
+                    <li role="presentation"><a href="#tab-comments" role="tab" data-toggle="tab">Comments (0)</a></li>
+                    
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="tab-files">
+                        <div id="loading-spinner" class="center-glyphicon valign-link">
+                            <span class="glyphicon glyphicon-refresh glyphicon-animation-spin glyphicon-5x"></span>
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab-comments">
+                            <!-- If the user can add comments, the form will be present, otherwise the form is not available at all. -->
+                        
+                        <div class="list-unstyled" id="reply_6364026ee4b04f6bb1409eda"> 
+
+
+
+<script src="/assets/javascripts/comment-delete.js" type="text/javascript"></script>
+<script src="/assets/javascripts/comment-edit.js" type="text/javascript"></script>
+
+    <script type="text/javascript" language="javascript">
+    function deleteCommentCallback(id) {
+    	$("#comment_" + id).remove();
+    }    
+</script></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab-metadata">
+                        
+                        <div class="row">
+                            <div class="col-md-12" id="metadata-content">
+                                
+                        
+    <script src="/assets/javascripts/errorRedirect.js" type="text/javascript"></script>
+    
+
+     
+        <script>
+                function activateTable() {
+                    $("#metadataCardsBtn").addClass("btn-link").removeClass("btn-primary");
+                    $("#metadata-cards").hide();
+                    $("#metadata-table").show();
+                    $("#metadataTableBtn").addClass("btn-primary").removeClass("btn-link");
+                }
+
+                function activateCards() {
+                    $("#metadataTableBtn").addClass("btn-link").removeClass("btn-primary");
+                    $("#metadata-table").hide();
+                    $("#metadata-cards").show();
+                    $("#metadataCardsBtn").addClass("btn-primary").removeClass("btn-link");
+                }
+
+                $(document).ready(function () {
+                    activateCards();
+                });
+        </script>
+
+        <div class="row" id="cards-table-view-selector">
+            <div class="col-sm-12">
+                <div class="pull-left">
+                    <h4>Metadata</h4>
+                </div>
+                <div class="pull-right">
+                    <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                        <button id="metadataCardsBtn" type="button" class="btn btn-primary" onclick="activateCards()">
+                            <span class="glyphicon glyphicon-th-list"></span>
+                        </button>
+                        <button id="metadataTableBtn" type="button" class="btn btn-link" onclick="activateTable()">
+                            <span class="glyphicon glyphicon-th-large"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="cards-table-view">
+            <div class="col-md-12">
+                <div id="metadata-table" role="tabpanel" class="tab-pane fade in active">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-condensed">
+                            <thead>
+                                <tr>
+                                    <th width="20%" style="width: 20%">Name</th>
+                                    <th width="40%" style="width: 40%">Value</th>
+                                    <th width="30%" style="width: 30%">Last Modified</th>
+                                    <th width="10%" style="width: 10%"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="metadata-table-body">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="metadata-cards" role="tabpanel" class="tab-pane fade in active">
+                    
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <p class="text-center" id="no-metadata-label">No metadata available for this resource</p>
+    
+
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('.collapse')
+                    .on('shown.bs.collapse', function(){
+                        $(this).parent().find(".panel-icon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+                    })
+                    .on('hidden.bs.collapse', function(){
+                        $(this).parent().find(".panel-icon").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+                    });
+
+            $('.tree li').on('click', function (e) {
+                var children = $(this).find('> ul > li');
+                if (children.is(":visible")) {
+                    children.hide('fast');
+                    $(this).find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+                } else {
+                    children.show('fast');
+                    $(this).find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+                }
+                e.stopPropagation();
+            });
+        })
+
+        $(function () {
+            $('.delete-icon').unbind().on('click', function(){
+                var delete_icon = $(this);
+                var metadataId = this.id;
+                var request = jsRoutes.api.Metadata.removeMetadata(metadataId).ajax({
+                    type: 'DELETE'
+                });
+
+                request.done(function (response, textStatus, jqXHR) {
+                    // Remove both the panel and the table row for this entry
+                    $("#panel_" + metadataId).remove();
+                    $("#row_" + metadataId).remove();
+
+                    // No more panels left, display placeholder text instead
+                    if($('#metadata-content .panel').length == 0) {
+                        $('#no-metadata-label').text('No metadata available for this resource');
+                    }
+                });
+
+                request.fail(function (jqXHR, textStatus, errorThrown){
+                    console.error("The following error occurred: " + textStatus, errorThrown);
+                    var errMsg = "You must be logged in to add metadata";
+                    if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                        notify("Metadata was not removed due to : " + errorThrown, "error");
+                    }
+                });
+            });
+        })
+
+        $(document).on('mouseenter', '.context-key', function(){
+            var contextId = this.id.split("-",1)[0];
+            getMetadataContext(this.id, contextId, this.textContent)
+        });
+
+        $(document).on('mouseenter', '.context-url-key', function() {
+            var contextUrl = $(this).data("url");
+            $('#'+this.id).addClass("popping");
+            showPopover(this.id, contextUrl);
+        });
+
+        $(document).on('mouseleave', '.context-url-key', function() {
+            leaveMetadataContext(this.id)
+        });
+
+
+        $(document).on('mouseleave', '.context-key', function(){
+            leaveMetadataContext(this.id)
+        });
+
+        // get metadata definitions
+        function getMetadataContext(mid, uuid, key) {
+            var request = jsRoutes.api.ContextLD.getContextById(uuid).ajax({
+                type: 'GET',
+                contentType: "application/json"
+            });
+            $("#"+mid).addClass("popping");
+            request.done(function (response, textStatus, jqXHR) {
+                var fields = response;
+                var context = "Context is not defined.";
+                if (fields['@context'][1] && typeof fields['@context'][1][key] !== 'undefined') {
+                    context = JSON.stringify(fields['@context'][1][key]);
+                }
+                showPopover(mid, context)
+            });
+
+            request.fail(function (jqXHR, textStatus, errorThrown){
+                $("#"+mid).removeClass("popping");
+                console.error("The following error occurred: " + textStatus, errorThrown);
+                var errMsg = "You must be logged in to retrieve metadata definitions";
+                if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                    notify("Metadata context was not shown due to : " + errorThrown, "error");
+                }
+            });
+        }
+
+        function showPopover(id, context) {
+            $("#"+id).popover({
+                content:context,
+                placement:'top',
+                template: '<div class="popover" role="tooltip" style="max-width:600px;word-break:break-all"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+            });
+            $("#"+id).popover('show');
+            if (!$("#"+id).hasClass("popping")) {
+                setTimeout(leaveMetadataContext, 500, id);
+            }
+
+        }
+
+        function leaveMetadataContext(mid) {
+            $("#"+mid).removeClass("popping");
+            $("#"+mid).popover('hide');
+        }
+    </script>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab-extractions">
+                        <div class="row">
+                            <div class="col-md-12" id="extractions-content">
+                            
+
+<link rel="stylesheet" href="/assets/stylesheets/extractions.css">
+<script src="/assets/javascripts/extractors/extractors.js" type="text/javascript"></script>
+
+<div class="well">
+    
+        <p>No extraction events recorded.</p>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab-visua">
+                        
+
+
+
+
+
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJHzizWxzgqkH9Ipr_cGSjCWpeuY8M4ac">
+    </script>
+
+
+
+    <div class="col-md-12 dataset-preview" id="previewer_dataset-mime-distribution_0"></div>
+    
+    <script>
+        var Configuration = {};
+        Configuration.div = "#previewer_dataset-mime-distribution_0";
+        Configuration.path = "/assets/javascripts/previewers/dataset-mime-distribution/";
+        Configuration.url = "/assets/javascripts/previewers/dataset-mime-distribution/main.js";
+        Configuration.dataset_id = "6364026ee4b04f6bb1409eda";
+        Configuration.name = "dataset-mime-distribution_0";
+    </script>
+    <script type="text/javascript" src="/assets/javascripts/previewers/dataset-mime-distribution/main.js"></script>
+
+
+    <div class="col-md-12 dataset-preview" id="previewer_dataset-path_1"></div>
+    
+    <script>
+        var Configuration = {};
+        Configuration.div = "#previewer_dataset-path_1";
+        Configuration.path = "/assets/javascripts/previewers/dataset-path/";
+        Configuration.url = "/assets/javascripts/previewers/dataset-path/main.js";
+        Configuration.dataset_id = "6364026ee4b04f6bb1409eda";
+        Configuration.name = "dataset-path_1";
+    </script>
+    <script type="text/javascript" src="/assets/javascripts/previewers/dataset-path/main.js"></script>
+
+
+    <div class="col-md-12 dataset-preview" id="previewer_geospatial-dataset_2"></div>
+    
+    <script>
+        var Configuration = {};
+        Configuration.div = "#previewer_geospatial-dataset_2";
+        Configuration.path = "/assets/javascripts/previewers/geospatial-dataset/";
+        Configuration.url = "/assets/javascripts/previewers/geospatial-dataset/geospatial-dataset.js";
+        Configuration.dataset_id = "6364026ee4b04f6bb1409eda";
+        Configuration.name = "geospatial-dataset_2";
+    </script>
+    <script type="text/javascript" src="/assets/javascripts/previewers/geospatial-dataset/geospatial-dataset.js"></script>
+
+
+    <div class="col-md-12 dataset-preview" id="previewer_geospatial-geojson_3"></div>
+    
+    <script>
+        var Configuration = {};
+        Configuration.div = "#previewer_geospatial-geojson_3";
+        Configuration.path = "/assets/javascripts/previewers/geospatial-geojson/";
+        Configuration.url = "/assets/javascripts/previewers/geospatial-geojson/geospatial-geojson.js";
+        Configuration.dataset_id = "6364026ee4b04f6bb1409eda";
+        Configuration.name = "geospatial-geojson_3";
+    </script>
+    <script type="text/javascript" src="/assets/javascripts/previewers/geospatial-geojson/geospatial-geojson.js"></script>
+
+
+
+                    </div>
+                    
+                    <div class="row bottom-padding">
+                        <div class="col-md-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<!-- right column -->
+		<div class="col-md-4">
+            <div class="row ds-section-sm file-info">
+                <h4>Statistics</h4>
+                <table class="table table-condensed">
+                    <tr><td><b>Views:</b></td><td> 209</td></tr>
+                    <tr><td><b>Last viewed:</b></td><td> Dec 27, 2022 16:34:47</td></tr>
+                    <tr><td><b>Downloads:</b></td><td> 17</td></tr>
+                    <tr><td><b>Last downloaded:</b></td><td> Dec 15, 2022 07:35:27</td></tr>
+                </table>
+            </div>
+            
+    <div class="row">
+        <div class="col-md-12">
+        
+            
+                <h4>Spaces containing the Dataset</h4>
+            
+        
+        </div>
+    </div>
+
+    <div class="row bottom-padding">
+        <div id="spacesList" class="col-md-12">
+        
+            <div id="col_62bb560ee4b07abf29f88fef" class="row bottom-padding">
+                <div class="col-md-2">
+                    
+                        <a href="/spaces/62bb560ee4b07abf29f88fef">
+                            <span class="smallicon glyphicon glyphicon-hdd"></span>
+                        </a>
+                    
+                </div>
+                <div class="col-md-10">
+                    <div>
+                        <a href="/spaces/62bb560ee4b07abf29f88fef" id='62bb560ee4b07abf29f88fef' class ="space-title">invitrodb v3.5</a>
+                    </div>
+                    <div>
+                        
+                            
+                                7 datasets
+                            
+                                
+                                    |
+                                    <div class="inline" title="No permission to remove from the Space">
+                                        <button class="btn btn-link btn-xs disabled"><span class="glyphicon glyphicon-remove"></span> Remove</button>
+                                    </div>
+                                
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- If the user can edit the dataset, the elements are enabled, otherwise they are present but disabled to provide consistent UE. -->
+    
+    
+        
+
+    
+
+
+
+<link rel="stylesheet" href="/assets/stylesheets/chosen.css">
+<script src="/assets/javascripts/chosen.jquery.js" type="text/javascript"></script>
+<script src="/assets/javascripts/spaceModify.js" type="text/javascript"></script>
+<script src="/assets/javascripts/deleteUtils.js" type="text/javascript"></script>
+
+
+<script language = "javascript">
+    var isSharingEnabled= false;
+    
+    $("#add-to-space-widget").addClass("hidden");
+    
+    function getCollection(id) {
+        var request = jsRoutes.api.Collections.getCollection(id).ajax({
+            type: 'GET'
+        });
+
+        request.done(function (response, textStatus, jqXHR) {
+            var o =$.parseJSON(jqXHR.responseText);
+            return o
+        });
+
+        request.fail(function (jqXHR, textStatus, errorThrown){
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            var errMsg = "Error message.";
+            if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                notify("Error : " + errorThrown, "error");
+            }
+        });
+        return false;
+    }
+
+</script>
+
+            
+
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+        <h4>Collections containing the Dataset</h4>
+    </div>
+</div>
+
+<div class="row bottom-padding">
+    <div id="collectionsList" class="col-md-12 col-sm-12 col-lg-12">
+        
+    </div>
+</div>
+
+
+
+
+<script language="javascript">
+    $("#collectionAddSelect").select2({
+        theme: "bootstrap",
+        placeholder: "Select a collection",
+        allowClear: true,
+        ajax: {
+            url: function(params) {
+                return jsRoutes.api.Collections.addDatasetToCollectionOptions(null, "6364026ee4b04f6bb1409eda", params.term, null, 5).url;
+            },
+            data: function(params) {
+                return { title: params.term };
+            },
+            processResults: function(data, page) {
+                return {results: data.filter(function(x) {
+                    var ids = $('.collection').map(function() {
+                        return $(this).attr('id');
+                    });
+                    return $.inArray(x.id, ids) == -1;
+                }).map(function(x) {
+                    return {
+                        text: x.collectionname,
+                        id: x.id
+                    }
+                })};
+            }
+        }
+    });
+
+
+</script>
+<script src="/assets/javascripts/datasets/collections.js" type="text/javascript"></script>
+<script src="/assets/javascripts/deleteUtils.js" type="text/javascript"></script>
+
+            
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h4>Tags</h4>
+    </div>
+</div>
+
+<!-- If the user can view tags for this dataset, they are displayed, the area is present but empty to provide a consistent UE. -->
+
+    <div class="row bottom-padding">
+        <div id ="tagList" class="col-md-12">
+        <!-- The data-id attribute is needed since a) the removeTag for some reason is based off the tag name (text), which is what the id attribute is
+             and b) identifiying elements by the tag text can sometimes break, especially in the special cases where there are characters that need encoding.
+        -->
+        
+        </div>
+    </div>
+
+
+<div class="row bottom-padding">
+    <div class="col-md-12">
+        <!-- If the user can add tags to the dataset, the form is enabled, otherwise the form is present but disabled to provide consistent UE. -->
+        
+            <form class="form-inline">
+                <div class="input-group input-group-sm">
+                    <input disabled type="text" id="tagField" class="form-control add-resource">
+                    <span class="input-group-btn">
+                        <button disabled class="btn btn-default btn-large" id="tagB" title="Add Tag">
+                            <span class="glyphicon glyphicon-tag"></span> Tag
+                        </button>
+                    </span>
+                </div>
+            </form>
+        
+    </div>
+</div>
+
+
+    <script language="javascript">
+    window[ "userDefined" ] = false ;
+    </script>
+
+
+
+
+<script language="javascript">
+    //The removeTag code is almost exactly the same as that in files.scala.html. It should probably be unified.
+    function removeTag(){
+        var tagId = $(this).attr("id");
+        console.log("Removing tag " + tagId);
+        //The data-id attribute is needed since a) the removeTag for some reason is based off the tag name (text), which is what the id attribute is
+        //and b) identifiying elements by the tag text can sometimes break, especially in the special cases where there are characters that need encoding.
+        //
+        //The real question is since that tags have UUIDs, why aren't they simply removed in that manner. In the add, the dom element isn't added until success
+        //so the ID could be returned there and added into the elements as needed.
+        var tagDataId = $(this).attr("data-id");
+        console.log("data-id to remove is " + tagDataId);
+
+        var request = jsRoutes.api.Datasets.removeTags('6364026ee4b04f6bb1409eda').ajax({
+            data: JSON.stringify({"tags":[tagId]}),
+            type: 'POST',
+            contentType: "application/json"
+        });
+
+        request.done(function (response, textStatus, jqXHR) {
+            console.log("Response " + textStatus);
+            $("[data-id=" + tagDataId + "].tag").remove();
+        });
+
+        request.fail(function (jqXHR, textStatus, errorThrown) {
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            var errMsg = "You must be logged in to remove a tag from a dataset.";
+            if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                notify("The tag was not removed from the dataset due to : " + errorThrown, "error");
+            }
+        });
+
+        return false;
+    }
+
+    $(function() {
+
+        var tmpId = 1;
+
+        $("#tagList").find(".glyphicon-remove").click(removeTag);
+
+        $('#tagB').click(function() {
+            var tag = $('#tagField').val();
+            tag = htmlEncode(tag);
+
+            var isTagPresent = false;
+            $("#tagList").children("div").each(function (index, tagLi) {
+                if($(tagLi).attr("name")===tag){
+                    isTagPresent = true;
+                }
+            });
+
+            if (tag !== "" && isTagPresent != true) {
+                var tagList = tag.split(','); 
+                console.log("submitting tag " + tag);
+                var request = jsRoutes.api.Datasets.addTags('6364026ee4b04f6bb1409eda').ajax({
+                    data: JSON.stringify({"tags":tagList}),
+                    type: 'POST',
+                    contentType: "application/json"
+                });
+
+                request.done(function (response, textStatus, jqXHR){
+                    console.log("Response " + response);
+                    for (var i = 0; i < tagList.length; i++) {
+                        var aTag=tagList[i].trim();
+                        var url = jsRoutes.controllers.Search.search("tag:"+aTag).url;
+                        //The data-id attribute is needed since a) the removeTag for some reason is based off the tag name (text), which is what the id attribute is
+                        //and b) identifiying elements by the tag text can sometimes break, especially in the special cases where there are characters that need encoding.
+                        //
+                        //The real question is since that tags have UUIDs, why aren't they simply removed in that manner. In the add, the dom element isn't added until success
+                        //so the ID could be returned there and added into the elements as needed.
+                        $newTag = $("<div id='"+htmlEncode(aTag)+"' class='tag' data-id='newId"+tmpId+"'><a href='" + url + "'>" + aTag + "</a><a href='#'> <span id='" + htmlEncode(aTag) +"' data-id='newId" + tmpId + "' class='glyphicon glyphicon-remove tag-delete'></span></a></div>").appendTo('#tagList');
+                        tmpId++;
+                        $newTag.find(".glyphicon-remove").click(removeTag);
+                        }
+                    $('#tagField').val("");
+                    
+                });
+
+                request.fail(function (jqXHR, textStatus, errorThrown){
+                    console.error("The following error occurred: "+textStatus, errorThrown);
+                    var errMsg = "You must be logged in to add a tag to a dataset.";
+                    if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                        notify("The tag was not added to the dataset due to : " + errorThrown, "error");
+                    }
+                });
+                return false;
+            }
+        });
+
+        $('#tagField').keypress(function (e) {
+            if (e.which == 13) {
+                console.log("enter");
+                $('#tagB').click();
+                return false;
+            }
+        });
+
+    });
+</script>
+
+            
+            
+            <div id="toolListContainer"></div>
+		</div>
+	</div>
+
+    
+    
+    <script src="/assets/javascripts/errorRedirect.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/updateLicenseInfo.js" language="javascript"></script>
+    <script src="/assets/javascripts/datasetListProcess.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/folderListProcess.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/fileListProcess.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/follow-button.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/deleteUtils.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/people.js" type="text/javascript"></script>
+    <script src="/assets/javascripts/creators.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var removeIndicator = false;
+        var parentId = "6364026ee4b04f6bb1409eda";
+        var parentType = "dataset";
+        var pageIndex = 0;
+        var folderId;
+        var cur_title;
+        
+        function updateTitle() {
+            cur_title = $('#datasettitle').text().trim();
+            $('<span class="inline edit_title_div"> </span>').insertAfter($('#datasettitle'));
+            $('.edit_title_div').append('<input type="text" id = "title_input" class="form-control" required/>');
+            $('.edit_title_div').append('<div class="hiddencomplete" aria-hidden="true" id="title-error"> <span class="error"> Title is required </span> </div>');
+            $('.edit_title_div').append('<button id="update_title" class= "btn btn-sm btn-primary btn-margins" onclick="saveTitle()"> <span class="glyphicon glyphicon-send"></span> Save </button>');
+            $('.edit_title_div').append('<button id="cancel_title" onclick="cancelTitle()" class="btn btn-sm edit-tab btn-default btn-margins"> <span class="glyphicon glyphicon-remove"></span>Cancel </button>');
+            $('#title_input').val(cur_title);
+            $('#datasettitle').text("");
+            $('#ds-title').removeClass("dataset-title");
+            $('#h-edit-title').addClass("hiddencomplete");
+            $('#h-edit-title').css("display", "none");
+            $('#title_input').select();
+        }
+        function parseHash() {
+            var hash = location.hash.split('#')[1];
+            var folderSet = false;
+            var pageSet = false;
+            if(hash != undefined) {
+                var values = hash.split('&');
+                for (var i = 0; i < values.length; i++){
+                    var temp = values[i].split('=');
+                    if(temp[0] == 'folderId') {
+                        folderId = temp[1];
+                        folderSet = true
+                    }
+                    if(temp[0] == 'page'){
+                        pageIndex = temp[1];
+                        pageSet = true
+                    }
+                }
+            }
+            if(!folderSet) {
+                folderId ='';
+            }
+            if(!pageSet) {
+                pageIndex = 0;
+            }
+        }
+        function archiveDataset(datasetid) {
+            var dataBody = {'datasetid': datasetid};
+            var request = jsRoutes.api.Datasets.queueArchival(datasetid).ajax({
+                data: JSON.stringify(dataBody),
+                type: 'POST',
+                contentType: "application/json"
+            });
+            request.done(function (response, textStatus, jqXHR){
+                console.log("Dataset " + datasetid + " was successfully queued for archival. Please check back later.");
+            });
+
+            request.fail(function (jqXHR, textStatus, errorThrown){
+                console.error("The following error occurred: " + textStatus, errorThrown);
+                notify("Failed to archive dataset.", "error");
+            });
+        }
+        function unarchiveDataset(datasetid) {
+            var dataBody = {'datasetid': datasetid};
+            var request = jsRoutes.api.Datasets.queueUnarchival(datasetid).ajax({
+                data: JSON.stringify(dataBody),
+                type: 'POST',
+                contentType: "application/json"
+            });
+            request.done(function (response, textStatus, jqXHR){
+                console.log("Dataset " + datasetid + " was successfully queued for unarchival. Please check back later.");
+            });
+
+            request.fail(function (jqXHR, textStatus, errorThrown){
+                console.error("The following error occurred: " + textStatus, errorThrown);
+                notify("Failed to unarchive dataset.", "error");
+            });
+        }
+        $(document).ready(function(){
+
+            getUpdatedFilesAndFolders();
+
+			$('body').on('click', 'a.disabled', function(event) {
+			    event.preventDefault();
+				});
+				
+            if(1 < 1 ) {
+                $('#dataset-users').hide();
+            }
+
+            if(false) {
+                 $(document).on('mouseenter', '#ds-title', function() {
+                    $('#h-edit-title').removeClass("hiddencomplete");
+                    $('#h-edit-title').addClass("inline");
+                 }).on('mouseleave', '#ds-title', function() {
+                    $('#h-edit-title').removeClass("inline");
+                    $('#h-edit-title').addClass("hiddencomplete");
+                 });
+
+                 $(document).on('mouseenter', '#aboutdesc', function() {
+                    $('#edit-description').removeClass("hiddencomplete");
+                    $('#edit-description').addClass("inline");
+                 }).on('mouseleave', '#aboutdesc', function() {
+                    $('#edit-description').removeClass("inline");
+                    $('#edit-description').addClass("hiddencomplete");
+                 });
+            }
+
+            if(false) {
+                $(document).on('mouseenter', '#edit-license', function() {
+                    $('#editlicense').removeClass("hiddencomplete");
+                    $('#editlicense').addClass("inline");
+                }).on('mouseleave', '#edit-license', function() {
+                    $('#editlicense').removeClass("inline");
+                    $('#editlicense').addClass("hiddencomplete");
+                });
+            }
+
+            var description = $('#ds_description').html().trim();
+            $('#ds_description').html(urlify(description));
+
+             
+
+            $("input[value='DEFAULT']").attr("checked", true);
+            setOriginAccess();
+        });
+
+        function cancelTitle() {
+          $('#datasettitle').text( cur_title);
+          $('#datasettitle').prepend('<span class="glyphicon glyphicon-briefcase"></span> ');
+          $('.edit_title_div').remove();
+          $('#datasettitle').css("display", "inline");
+          $('#h-edit-title').removeClass("inline");
+          $('#h-edit-title').css("display", "");
+          $('#ds-title').addClass("dataset-title");
+          $('#ds-title').mouseleave();
+        }
+
+        function saveTitle() {
+            if($('#title_input').val().length < 1) {
+                $('#title-error').show();
+                return false;
+            }
+            var name = $('#title_input').val();
+            var encName = htmlEncode(name);
+            jsonData = JSON.stringify({"name": encName});
+
+            var request = jsRoutes.api.Datasets.updateName("6364026ee4b04f6bb1409eda").ajax({
+                data: jsonData,
+                type: 'PUT',
+                contentType: "application/json"
+            });
+
+            request.done(function(response, textStatus, jqXHR){
+                $('#datasettitle').text(encName.replace(/\n/g, "<br>"));
+                $('#datasettitle').prepend('<span class="glyphicon glyphicon-briefcase"></span> ');
+                $('.edit_title_div').remove();
+                $('#datasettitle').css("display", "inline");
+                $('#h-edit-title').removeClass("inline");
+                $('#h-edit-title').css("display", "");
+                $('#ds-title').addClass("dataset-title");
+                $('#ds-title').mouseleave();
+                notify("Dataset name updated successfully", "success", false, 2000 );
+            });
+
+            request.fail(function(jqXHR, textStatus, errorThrown) {
+                console.error("The following error occurred: " + textStatus, errorThrown);
+                var errMsg = "Yoy must be logged in to update the information about a dataset.";
+                if(!checkErrorAndRedirect(jqXHR, errMsg)) {
+                    notify("The dataset information was not updated due to: "+ errorThrown, "error");
+			    }
+		    });
+
+        }
+        var cur_description;
+        function updateDescription() {
+            cur_description = $('#ds_description').html().trim();
+            $('<div class="edit_desc"> </div>').insertAfter($('#ds_description'));
+            $('.edit_desc').append('<textarea id = "desc_input" class="form-control"/>');
+            $('.edit_desc').append('<button id = "update_desc" class= "btn btn-sm btn-primary btn-margins" onclick = "saveDescription()"> <span class="glyphicon glyphicon-send"> </span> Save </button>');
+            $('.edit_desc').append('<button id="cancel_desc" class="btn btn-sm edit-tab btn-default btn-margins" onclick="cancelDescription()"> <span class="glyphicon glyphicon-remove"></span> Cancel </button>');
+            if(cur_description.indexOf("Add a description") != 0) {
+                $('#desc_input').val(htmlDecode(cur_description.replace(new RegExp("<br>", "g"), "\n")));
+            }
+            $('#ds_description').text("");
+            $('#edit-description').css("display", "none");
+            $('#edit-description').addClass("hiddencomplete");
+            $('#ds_description').css("display", "none");
+            $("#desc_input").select();
+        }
+
+        function cancelDescription() {
+            $('#ds_description').html(cur_description);
+            $('.edit_desc').remove();
+            $('#ds_description').css("display","");
+            $('#edit-description').removeClass("inline");
+            $('#edit-description').css("display", "");
+            $('#ds-description').mouseleave();
+        }
+
+        function saveDescription() {
+                var description = $('#desc_input').val();
+                var encDescription = htmlEncode(description);
+                jsonData = JSON.stringify({"description": encDescription});
+
+                var request = jsRoutes.api.Datasets.updateDescription("6364026ee4b04f6bb1409eda").ajax({
+                    data: jsonData,
+                    type: 'PUT',
+                    contentType: "application/json"
+                });
+
+                request.done(function(response, textStatus,jqXHR) {
+                    $('#ds_description').html(urlify(htmlEncode(description).replace(/\n/g, "<br>")));
+                    if($('#ds_description').html().length == 0) {
+                        $('#aboutdesc > span').text("Add a " + descLabel.toLowerCase());
+                    } else {
+                        $('#aboutdesc > span').text(descLabel + ":");
+                    }
+                    $('.edit_desc').remove();
+                    //multiline add classes else remove them
+                    if ($('#ds_description').html().indexOf("<br>")>=0) {
+                        $('#ds_description').addClass("abstract-panel");
+                    } else {
+                        $('#ds_description').removeClass("abstract-panel");
+                    }
+                    $('#ds_description').css("display", "");
+                    $('#edit-description').removeClass("inline");
+                    $('#edit-description').css("display", "");
+                    $('#ds-description').mouseleave();
+                    notify("Dataset description updated successfully", "success", false, 2000 );
+                });
+
+                request.fail(function(jqXHR, textStatus, errorThrown) {
+                    console.error("The following error occurred: " + textStatus, errorThrown);
+                    var errMsg = " You must be logged in to update the information about a dataset.";
+                    if(!checkErrorAndRedirect(jqXHR, errMsg)) {
+                        notify("The dataset information was not updated due to: " + errorThrown, "error");
+                    }
+                });
+            }
+
+        function urlify(text) {
+            var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+            return text.replace(urlRegex, function(url) {
+                return '<a href="' + url + '">' + url + '</a>';
+            })
+        }
+
+        function refreshToolSidebar() {
+            // Get current status from ToolManagerPlugin and refresh sidebar table
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState == 4 && request.status == 200) {
+                    $('#toolListContainer').html(request.response);
+                }
+            }
+            request.open("GET", jsRoutes.controllers.ToolManager.refreshToolSidebar("6364026ee4b04f6bb1409eda", "Invitrodb MC5").url, true);
+            request.send();
+        }
+
+        $(function() {
+            $(window).on('fileDelete hashchange', function() {
+                getUpdatedFilesAndFolders();
+            });
+
+            $('#createFolder').click(function() {
+                var name=$('#name');
+
+                var error = false;
+                if(!name.val()) {
+                    $('#nameerror').show();
+                    error = true;
+                } else{
+                    $('#nameerror').hide();
+                }
+                if(!error) {
+
+                    var encName  = htmlEncode(name.val());
+                    var jsonData = JSON.stringify({"name": encName, "parentId": parentId, "parentType": parentType, "currentSpace": "62bb560ee4b07abf29f88fef"});
+                    var request = jsRoutes.controllers.Folders.createFolder("6364026ee4b04f6bb1409eda").ajax({
+                        data:jsonData,
+                        type: 'POST',
+                        contentType: "application/json"
+                    });
+                    request.done(function(response, textStatus, jqXHR){
+                        $('#folder-modal').modal('hide');
+                        $('#empty-folder-div').hide();
+                        $('#folderListDiv').prepend(response);
+                        notify("Folder created successfully", "success", false, 2000 );
+                        $('#name').val("");
+                    });
+
+                    request.fail(function (jqXHR, textStatus, errorThrown){
+                        $('#name').val("");
+                        console.error("The following error occurred: " + textStatus, errorThrown);
+                        var errMsg = "You must be logged in to create a new folder.";
+                        if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                            notify("Error in creating folder: " + errorThrown, "error");
+                        }
+                    });
+
+                };
+                return false;
+            });
+        });
+
+        
+            function updatePageAndFolder(idx, folderIdd){
+                if(folderIdd != "") {
+                    location.hash = "folderId="+folderIdd+"&page="+idx;
+                } else {
+                    location.hash="page="+idx;
+                }
+            }
+        
+
+       function getUpdatedFilesAndFolders() {
+        parseHash();
+        if(folderId == "") {
+            folderId = null;
+        }
+        var currentSpace = null;
+        if(true){
+           currentSpace = "62bb560ee4b07abf29f88fef";
+        }
+        var jsonData = JSON.stringify({"currentSpace": currentSpace, "folderId": folderId});
+        var filtBox = document.getElementById("filename-filter");
+        if (filtBox==null) {
+            var filt = "";
+        } else {
+            var filt = filtBox.value;
+        }
+        var request = jsRoutes.controllers.Datasets.getUpdatedFilesAndFolders("6364026ee4b04f6bb1409eda", 20, pageIndex, "62bb560ee4b07abf29f88fef", filt).ajax({
+            data: jsonData,
+            type: 'POST',
+            contentType: "application/json"
+         });
+         $('#loading-spinner').show();
+
+         request.done(function(response, textStatus, jsXHR){
+          $('#tab-files').html("");
+          $('#tab-files').html(response);
+          $('#loading-spinner').hide();
+          if(folderId != null) {
+            parentType = 'folder';
+            parentId = folderId;
+            $('#addFilesLink').attr("href", jsRoutes.controllers.Folders.addFiles('6364026ee4b04f6bb1409eda', folderId).url);
+          } else {
+              parentId = "6364026ee4b04f6bb1409eda";
+              parentType = "dataset";
+              $('#addFilesLink').attr("href", jsRoutes.controllers.Datasets.addFiles('6364026ee4b04f6bb1409eda').url);
+          }
+         });
+         request.fail(function (jqXHR, textStatus, errorThrown){
+             $('#loading-spinner').hide();
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            var errMsg = "You must be logged in to see files and folders.";
+            if (!checkErrorAndRedirect(jqXHR, errMsg)) {
+                notify("Error in getting more files and folders : " + errorThrown, "error");
+            }
+         });
+
+       }
+
+        $('input[type=radio][name="access"]').change(function() {
+            var name = 'Invitrodb MC5';
+            var id = '6364026ee4b04f6bb1409eda';
+            var access = $("input[name='access']:checked").val();
+            if(access !== undefined){
+                var msg = "Are you sure you want to set " + name + " to " +access+"?";
+                var modalHTML = confirmTemplate(msg, id, access);
+                var confirmModal = $(modalHTML);
+                confirmModal.modal();
+                confirmModal.modal("show");
+            }
+        });
+
+        function moveFile(fileId) {
+            $('.modal').modal('hide');
+            var newFolderId = $('#move_file_select').val();
+            var datasetId = "6364026ee4b04f6bb1409eda";
+            var jsonData = JSON.stringify({"folderId": folderId});
+            var url;
+            if(newFolderId == "root") {
+                url =jsRoutes.api.Folders.moveFileToDataset(datasetId, folderId, fileId)
+            } else {
+                url =jsRoutes.api.Folders.moveFileBetweenFolders(datasetId, newFolderId, fileId)
+            }
+            var request = url.ajax({
+                data: jsonData,
+                type: 'POST',
+                contentType: "application/json"
+            });
+            request.done(function(response, textStatus, jsXHR){
+                if(newFolderId == "root") {
+                    
+                    updatePageAndFolder(0, '');
+                    
+                    notify("The file " + response.fileName + " has been succesfully moved to the dataset.", "success",  false, 2000);
+                } else {
+                    
+                    updatePageAndFolder(0, newFolderId);
+                    
+                    notify("The file " + response.fileName + " has been succesfully moved to folder: " + response.folderName, "success",  false, 2000);
+                }
+
+            });
+            request.fail(function(jqXHR, textStatus, errorThrown) {
+                notify("Error moving file " + errorThrown, "error")
+            });
+
+        };
+
+        function showMoveModal(fileId) {
+
+            var request = jsRoutes.api.Folders.getAllFoldersByDatasetId("6364026ee4b04f6bb1409eda").ajax({
+                type: "GET",
+                contentType: "application/json"
+            });
+            request.done(function(response, textStatus, jsXHR){
+                $('#move_file_select').remove();
+                var modalHtml = '<div class="modal fade" id="moveFileModal" tabindex="-1" role="dialog">';
+                modalHtml += '<div class="modal-dialog">';
+                modalHtml += '<div class="modal-content">';
+                modalHtml += '<div class="modal-header">';
+                modalHtml += '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
+                modalHtml += '<h4 class="modal-title">Move File to Folder</h4>';
+                modalHtml += '</div>';
+                modalHtml += '<div class="modal-body">';
+                modalHtml += '<select id="move_file_select" class="form-control">';
+                if(folderId != null) {
+                    modalHtml += '<option value="root">/</option>';
+                }
+                for (var i = 0; i < response.length; i ++) {
+                    if(folderId != response[i].id) {
+                        modalHtml +='<option value="'+response[i].id+'">'+ response[i].name + '</option>';
+                    }
+                }
+
+                modalHtml += '</select>';
+                modalHtml += '</div>';
+                modalHtml += '<div class="modal-footer">';
+                modalHtml += '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
+                modalHtml += '<a type="button" class="btn btn-primary" id="moveFileButton" href="javascript:moveFile(\''+fileId+'\')"> <span class="glyphicon glyphicon-move"></span> Move</a>';
+                modalHtml += '</div>';
+                modalHtml += '</div>';
+                modalHtml += '</div>';
+                modalHtml += '</div>';
+                var moveBetweenFoldersModal = $(modalHtml);
+                moveBetweenFoldersModal.modal("show");
+            });
+
+            request.fail(function(jqXHR, textStatus, errorThrown){
+                notify("Error getting all folders in dataset" + errorThrown, "error");
+            });
+
+        }
+
+    </script>
+
+    </div>
+    <div id="push"></div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12">
+                <p class="muted credit">Powered by <a href="http://clowder.ncsa.illinois.edu">Clowder</a>
+                    (1.20.2#889
+                    branch:master sha1:68baf98f0a7635f9059c9856e2fa6b92781e308f).</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+  
+
+
+
+<script>
+    function toggelServerAdmin() {
+        $.cookie("superAdmin", $.cookie("superAdmin") != "true", { path: '/' });
+        location.reload();
+    }
+</script>
+
+<script>
+    var repeatInt = 1; // check for session expiration in minutes
+
+    if (false) {
+        var intervalCount = setInterval(function(){checkSession()}, repeatInt*60000);
+
+        // Populate initial selection count on page load
+        var request = jsRoutes.api.Selected.get().ajax({
+            type: 'GET'
+        });
+        request.done(function (response, textStatus, jqXHR) {
+            updateSelectedCount(response.length);
+        });
+        request.fail(function (jqXHR, textStatus, errorThrown) {
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            if (errorThrown != "Unauthorized") {
+                notify("Could not get selections: " + errorThrown, "error");
+            }
+        });
+    }
+
+    function checkSession() {
+        nowTime = new Date();
+        var request = jsRoutes.controllers.Login.isLoggedIn().ajax({
+            type: 'GET'
+        });
+        request.done(function(response, textStatus, jqXHR) {
+            if (response === "no") {
+                clearInterval(intervalCount);    //stop the timer
+                var modalHTML = '<div class="modal" role="dialog">';
+                modalHTML += '<div class="modal-dialog">';
+                modalHTML += '<div class="modal-content">';
+                modalHTML += '<div class="modal-body">';
+                modalHTML += '<p>Your session has expired as of ' + nowTime.toTimeString() + '.<br />Press OK to log in again.</p>';
+                modalHTML += '</div>';
+                modalHTML += '<div class="modal-footer">';
+                modalHTML += '<a type="button" class="btn btn-primary" href="/logout"><span class="glyphicon glyphicon-ok"></span> OK</a>';
+                modalHTML += '</div>';
+                modalHTML += '</div>';
+                modalHTML += '</div>';
+                modalHTML += '</div>';
+                var confirmModal = $(modalHTML);
+                confirmModal.modal({backdrop: "static", keyboard: false});
+                confirmModal.modal("show");
+            }
+        });
+        request.fail(function(jqXHR, textStatus, errorThrown) {
+            console.error("The following error occurred: " + textStatus, errorThrown);
+        });
+    }
+
+    function deleteAllSelections() {
+        var request = jsRoutes.api.Selected.deleteAll().ajax({
+            type: 'DELETE'
+        });
+        request.done(function (response, textStatus, jqXHR) {
+            location.reload()
+        });
+        request.fail(function (jqXHR, textStatus, errorThrown){
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            notify("Could not delete selections: " + errorThrown, "error");
+        });
+    }
+
+    function downloadAllSelections() {
+        // Simple check for whether there are 1+ things selected
+        if ($('#selected-count')[0].innerHTML.indexOf("Manage Selections (<b>0</b>)") == -1) {
+            window.open(jsRoutes.api.Selected.downloadAll().url, '_blank');
+        } else {
+            notify("No datasets currently selected", "warning")
+        }
+    }
+
+    function clearSelections() {
+        var request = jsRoutes.api.Selected.clearAll().ajax({
+            type: 'POST'
+        });
+        request.done(function (response, textStatus, jqXHR) {
+            location.reload()
+        });
+        request.fail(function (jqXHR, textStatus, errorThrown){
+            console.error("The following error occurred: " + textStatus, errorThrown);
+            notify("Could not clear selections: " + errorThrown, "error");
+        });
+    }
+
+    function showTagPopup() {
+        if ($('#selected-count')[0].innerHTML.indexOf("Manage Selections (<b>0</b>)") == -1) {
+            var modalHTML = `
+            <div id="enter-tag" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tag All Selections</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Multiple tags may be entered, separated by commas.
+                            </p>
+                            <input maxlength="100"
+                                type="text" id="bulk-tag-selector" class="form-control add-resource" placeholder="Enter a tag...">
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-link" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                            <a type="button" class="btn btn-primary" id="OKModalButton" href="javascript:tagAllSelections()"><span class="glyphicon glyphicon-ok"></span> OK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+
+            var confirmModal = $(modalHTML);
+            confirmModal.modal();
+            confirmModal.modal("show");
+        } else {
+            notify("No datasets currently selected", "warning")
+        }
+    }
+
+    function tagAllSelections() {
+        var tag = $('#bulk-tag-selector')[0].value;
+
+        if (tag.length > 0) {
+            var request = jsRoutes.api.Selected.tagAll(tag.split(",")).ajax({
+                type: 'POST'
+            });
+            request.done(function (response, textStatus, jqXHR) {
+                notify("Tag(s) successfully added.", "success", false, 2000);
+            });
+            request.fail(function (jqXHR, textStatus, errorThrown){
+                console.error("The following error occurred: " + textStatus, errorThrown);
+                notify("Could not tag selections: " + errorThrown, "error");
+            });
+
+        } else {
+            console.log("No tag was provided.")
+        }
+        $("#enter-tag").modal("hide")
+    }
+
+    function updateSelectedCount(count) {
+        $('#selected-count')[0].innerHTML = '<span class="glyphicon glyphicon-ok"></span> Manage Selections (<b>'+String(count)+'</b>)';
+    }
+</script>
+</body>
+</html>
+
+

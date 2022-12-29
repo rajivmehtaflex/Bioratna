@@ -1,0 +1,740 @@
+Chemical_Name	CAS No	PubChem CID	Canonical SMILES	DPRA_PPRA_Cys	DPRA_PPRA_Lys	KeratinoSens_LuSens_EC15	h-CLAT_EC150	h-CLAT_EC200	h-CLAT_CV75	LLNA_EC3	Human_Data
+Zinc oxide	1314-13-2	14806	O=[Zn]								N
+Retinoic acid	302-79-4	5538	CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C								N
+Petrolatum	8009-03-08										N
+Hexachlorophene	70-30-4	3598	C1=C(C(=C(C(=C1Cl)Cl)CC2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl								N
+Ascorbic acid	50-81-7										N
+Triclosan	3380-34-5	5564	C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl								N
+Phenoxyethanol	122-99-6	31236	C1=CC=C(C=C1)OCCO								N
+Limonene (not oxidized)	"138-86-3, 5989-27-5"										N
+Chlorhexidine gluconate	55-56-1	2713	C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl								P
+Chlorpromazine	50-53-3	2726	CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl								P
+Thimerosal	54-64-8										P
+Quaternium-15	4080-31-1	5846454	C1N2CN3CN1C[N+](C2)(C3)C/C=C\Cl								P
+Peru balsam	8007-00-9										P
+Nickel	7440-02-0	934	[Ni+2]								P
+Cobalt sulfate	10124-43-4										P
+Squaric acid dibutylester	2892-62-8	65108	CCCCOC1=C(C(=O)C1=O)OCCCC								P
+Phenol	108-95-2	996	C1=CC=C(C=C1)O			ND					N
+Hydrazine	301-01-2										P
+MCI/MI (act. 1.5%)	Mixture/26172-55-4						2.21	ND	3.2		
+1-Benzoylacetone	93-91-4	7166	CC(=O)CC(=O)C1=CC=CC=C1				ND	39.6	92.8		
+CoCl2	1332-82-7	3032536	[Cl-].[Cl-].[Co+2]				ND	35.5	208.3		
+Cetrimide	57-09-0	2681	CCCCCCCCCCCCCCCC[N+](C)(C)C	2.4	1.5	Below	Below	ND	ND		N
+Glucose	50-99-7	5793	C(C1C(C(C(C(O1)O)O)O)O)O	0.1	15.3	Below	Below	Below	ND		N
+Xylene	95-47-6	7237	CC1=CC=CC=C1C	-0.7	0.7	Below	Below	Below	ND		N
+1,2-cyclohexane dicarboxylic anhydride	85-42-7	85689	C1CCC2C(C1)C(=O)OC2=O	8.1	86.3	>2000					
+Squaric acid diethyl ester	5231-87-8	123228	CCOC1=C(C(=O)C1=O)OCC	97.6	98.4	>2000					
+N,N-dimethyl-4-nitrosoaniline	138-89-6	8749	CN(C)C1=CC=C(C=C1)N=O	0	100	0.5					
+2,4-Dinitrobenzenesulfonic acid,sodium salt	885-62-1	70168	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)[O-].[Na+]	5.8	72.6	70.23					
+Dimethyl formamide	68-12-2	6228	CN(C)C=O	0.5	-1.7		ND	ND	2500		
+Nonanoic acid	112-05-0	8158	CCCCCCCCC(=O)O	100	100	>2000	125.23	ND	264.8		
+4,4,4-Trifluoro-1-phenylbutane-1,3-dione	362-06-7									20	
+1-(3',4',5'-Tetramethoxyphenyl)-4-dimethylpentane-1,3-dione	135099-98-8									NC	
+(1R)-1,2,3,4-Tetrahydro-6,7-dimethoxy-2-methyl-1-[(3,4,5-trimethoxyphenyl)methyl]isoquino-line [R-(R*,R*)]-2,3-bis(benzoyloxy)-butanedioate (1:1)	104832-01-1									NC	
+1-(2',3',4',5'-Tetramethylphenyl)butane-1,3-dione	167998-73-4									8.3	
+Litsea cubeb oil	68855-99-2									8.4	
+Butylated hydroxytoluene	128-37-0	31404	CC1=CC(=C(C(=C1)C(C)(C)C)O)C(C)(C)C								N
+Jasmine absolute (Grandiflorum)	92457-01-7									5.9	
+C9 Azalactone	176665-04-6									2.8	
+C4 Azalactone	176664-99-6									1.8	
+Basil oil	8015-73-4									6.2	
+1,2-Bromo-1-dodecanol	3344-77-2	137895	C(CCCCCCBr)CCCCCO	16.1	-0.7		ND	ND	37.5	6.9	
+C17 Azalactone	176665-11-5									19	
+C11 Azalactone	176665-06-8									16	
+2,2'-oxybisethanol	111-46-6	8117	C(COCCO)O							NC	
+Cyclopentanepropanol	767-05-5	69842	C1CCC(C1)CCCO							NC	
+6-Chloro-1-hexanol	2009-83-8	74828	C(CCCCl)CCO							NC	
+2-MBT (2-Mercaptobenzothiazole)	149-30-4	697993	C1=CC=C2C(=C1)NC(=S)S2	100	100	44.3	NAN	57.5	169	1	P
+p-Chlorophenethylic alcohol	1875-88-3	74647	C1=CC(=CC=C1CCO)Cl							31.25	
+Chlorosalicylanilide	4638-48-6	14869	C1=CC=C(C=C1)NC(=O)C2=C(C=CC(=C2)Cl)O							5	
+Glyceryl thioglycollate	30618-84-9	3034372	C(C(COC(=O)CS)O)O							4.7	P
+2-Hydroxyethyl acrylate	818-61-1	13165	C=CC(=O)OCCO	100	93.5	32.27	10.8	19.49	24.4	1.4	P
+Benzyl salicylate	118-58-1	8363	C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2O	0.9	-82.8	8.4	ND	ND	38	2.8	N
+Pyrogallol	87-66-1	1057	C1=CC(=C(C(=C1)O)O)O							0.4	
+Phenylethyl alcohol	60-12-8	6054	C1=CC=C(C=C1)CCO							NC	
+Thioglycerol	96-27-5	7291	C(C(CS)O)O			ND				3.6	P
+Glycerol	56-81-5	753	C(C(CO)O)O	100	97.9	NAN	NAN	NAN	5000	NC	N
+Benzoic acid	65-85-0	243	C1=CC=C(C=C1)C(=O)O	83.8	31.9	NAN	ND	ND	1000	NC	
+(r,s)-3-Amino-2,3,4,5-tetrahydro-n-(1-methylethyl)-2,4-dioxo-n,5-diphenyl-1h-1,5-benzodiazepine-1-acetamide	184944-86-3									NC	
+Resorcinol	108-46-3	5054	C1=CC(=CC(=C1)O)O	98.4	100	NAN	ND	200.9	613.4	5.5	P
+Carvone	99-49-0	7439	CC1=CCC(CC1=O)C(=C)C								P
+Formulation 33	150114-71-9/1702-17-6/1918-02-1									NC	
+1,4-Dihydroquinone	123-31-9	785	C1=CC(=CC=C1O)O	99.6	53.7	9.8	2.13	ND	5	0.07	P
+12-Bromododecanoic acid	73367-80-3	175468	C(CCCCCC(=O)O)CCCCCBr							18	
+Glyoxylic  acid	298-12-4	760	C(=O)C(=O)O							5.3	
+Adipic acid	124-04-9	196	C(CCC(=O)O)CC(=O)O							NC	
+Succinic acid	110-15-6	1110	C(CC(=O)O)C(=O)O							NC	
+2,4,5-Trichlorophenoxyacetic Acid	93-76-5	1480	C1=C(C(=CC(=C1Cl)Cl)Cl)OCC(=O)O							9.9	
+Produkt P-4G	185461-17-0									NC	
+Oxalic Acid	144-62-7	971	C(=O)(C(=O)O)O	99.1	100	717.2	310.33	ND	1000	1.1E-5	
+Formulation 4	1702-17-6	15553	C1=CC(=NC(=C1Cl)C(=O)O)Cl							NC	
+Maleic acid	110-16-7	444266	C(=CC(=O)O)C(=O)O							7	
+3,4-Dihydrocoumarin	119-84-6	660	C1CC(=O)OC2=CC=CC=C21	100	60.3	>2000	ND	531.7	810	3.3	
+5-Hydroxy-4-nitrobenzoic acid	619-14-7	69265	C1=CC(=C(C=C1C(=O)O)O)[N+](=O)[O-]							NC	
+Saccharin	81-07-2	5143	C1=CC=C2C(=C1)C(=O)NS2(=O)=O	97.6	100	>2000	ND	ND	1000	NC	
+beta-Phenylcinnamaldehyde	1210-39-5	71027	C1=CC=C(C=C1)C(=CC=O)C2=CC=CC=C2							0.6	
+Coumarin	91-64-5	323	C1=CC=C2C(=C1)C=CC(=O)O2	99	100	60.03	ND	ND	537.4	19.2	P
+1,2,3,5,6,7-hexahydro-2-thioxo-4h-cyclopentapyrimidin-4-one	35563-27-0	687726	C1CC2=C(C1)NC(=S)NC2=O							NC	
+1,4-Benzoquinone	106-51-4	4650	C1=CC(=O)C=CC1=O	100	100	4	2.67	2.24	4.3	0.0099	
+Diethylenetriamine	111-40-0	8111	C(CNCCN)N	44.8	-1.9	1259.4	ND	ND	1221.6	3.3	
+Glutaraldehyde	111-30-8	3485	C(CC=O)CC=O	88	85.4	24.26	2.78	2.7	5.3	0.04	P
+Phenylmethyl 2-(4-fluoro-2-methylphenyl)-4-oxo-3,4-dihydro-1(2h)-pyridine-carboxylate	414909-98-1	21927686	CC1=C(C=CC(=C1)F)C2CC(=O)C=CN2C(=O)OCC3=CC=CC=C3							NC	
+2-Aminoethyl-methylsulfone	49773-20-8	4340561	CS(=O)(=O)CCN							NC	
+3-Phenylpropenal	104-55-2 or 14371-10-9	637511	C1=CC=C(C=C1)C=CC=O	88.6	64.7	6	10.2	12.3	28	0.5	P
+Benzoyl peroxide	94-36-0	7187	C1=CC=C(C=C1)C(=O)OOC(=O)C2=CC=CC=C2	100	81.3	NAN	ND	ND	34.9	0.0044	P
+Phenyl benzoate	93-99-2	7169	C1=CC=C(C=C1)C(=O)OC2=CC=CC=C2	64.9	2.2	NAN	137.8	236.4	500	1.2	P
+2-(4-Amino-2nitro-phenylamino)-ethanol	2871-01-4	3465817	C1=CC(=C(C=C1N)[N+](=O)[O-])NCCO							2.2	
+n-Isopropyl-n-phenyl-2-(2-phenylamino-phenylamino)-acetamide	161455-90-9	10784706	CC(C)N(C1=CC=CC=C1)C(=O)CNC2=CC=CC=C2NC3=CC=CC=C3							2.1	
+Ylang ylang (Extra)	68606-83-7/8006-81-3									6.8	
+2-Amino-di-phenylamine	534-85-0	68297	C1=CC=C(C=C1)NC2=CC=CC=C2N							0.5	
+Furil	492-94-4	68119	C1=COC(=C1)C(=O)C(=O)C2=CC=CO2				ND	ND	300	NC	
+Tween 80	9005-65-6	5281955	CCCCCCCCC=CCCCCCCCC(=O)OCCOCC(C1C(C(CO1)OCCO)OCCO)OCCO			19.3	ND	ND	5000		N
+Manganese chloride	7773-01-5	10313134	[Cl-].[Cl-].[Mn+2]							NC	
+3-Aminophenol	591-27-5	11568	C1=CC(=CC(=C1)O)N	93.4	98.8	>2000	ND	117.1	243.2	3.2	
+Formulation 30	34256-82-1/57754-85-5/98967-40-9									9.4	
+beta-Propiolactone	57-57-8	2365	C1COC1=O	91.4	49.8					0.15	
+m-Phenylenebis(methylamine)	1477-55-0	15133	C1=CC(=CC(=C1)CN)CN							0.4	
+2-Aminophenol	95-55-6	5801	C1=CC=C(C(=C1)N)O	86.5	81.9	1.06	0.89	ND	6	0.4	P
+Quinoxyfen SC	124495-18-7	3391107	C1=CC(=CC=C1OC2=C3C(=CC(=CC3=NC=C2)Cl)Cl)F							NC	
+1-amino-2-nitro-4-bis-(2-hydroxyethyl)-amino-benzol	29705-39-3	147315	C1=CC(=C(C=C1N(CCO)CCO)[N+](=O)[O-])N							8.2	
+Lemongrass oil	8007-02-1									6.5	
+Pentaerythritol triacrylate	3524-68-3	19042	C=CC(=O)OCC(CO)(COC(=O)C=C)COC(=O)C=C							NC	
+Bandrowski's Base	20048-27-5	159881	C1=CC(=CC=C1N)N=C2C=C(C(=NC3=CC=C(C=C3)N)C=C2N)N	96.3	95.8	0.5	3.85	1.6	2.3	0.02	
+1,4-Phenylenediamine	106-50-3	7814	C1=CC(=CC=C1N)N	99.8	42.2	5	2.09	NAN	36.7	0.001	P
+2-Nitro-1,4-phenylendiamine	5307-14-2	4338370	C1=CC(=C(C=C1N)[N+](=O)[O-])N	99.2	100	11.46	ND	276.68	490.7	0.4	P
+Sulfanilamide	63-74-1	5333	C1=CC(=CC=C1N)S(=O)(=O)N	100	99.2	NAN	NAN	NAN	NAN	NC	
+3,4-Dichloroaniline hydrochloride	95-76-1	7257	C1=CC(=C(C=C1N)Cl)Cl							0.14	
+4-Allylanisole	140-67-0	8815	COC1=CC=C(C=C1)CC=C	98.5	100	39	2125	207.6	186	18	
+Kanamycin Monosulfate	25389-94-0	441374	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N.OS(=O)(=O)O							NC	
+4'-(Trifluoro-methyl)-[1,1'-biphenyl]-4-carboxaldehyde	90035-34-0	2782712	C1=CC(=CC=C1C=O)C2=CC=C(C=C2)C(F)(F)F							NC	
+3-Phenoxypropiononitrile	3055-86-5	76456	C1=CC=C(C=C1)OCCC#N	100	70.3	>2000	ND	451.9	557.1	NC	
+4-Aminobenzoic acid	150-13-0	978	C1=CC(=CC=C1C(=O)O)N	5.9	0.5	Below	Below	Below	ND	NC	N
+Sulfanic acid	121-57-3	8479	C1=CC(=CC=C1N)S(=O)(=O)O	94.7	99.5	NAN	ND	ND	>5000	NC	
+Formulation 34	150114-71-9	213012	C1=C(C(=C(N=C1Cl)C(=O)O)Cl)N							NC	
+Maleic anhydride	108-31-6	7923	C1=CC(=O)OC1=O	100	93	1475.9	ND	298.4	658		
+Benzaldehyde	100-52-7	240	C1=CC=C(C=C1)C=O	92.8	100	443.1	300.3	259.9	488.4	NC	N
+3-Amino-5-mercapto-1,2,4-triazole	16691-43-3	2723869	C1(=NC(=S)NN1)N							5.2	
+Anisyl Alcohol	1331-81-3	7738	COC1=CC=C(C=C1)CO							5.91	N
+Quinoxyfen/cyproconazole	124495-18-7/ 113096-99-4									9.8	
+6-methoxynaphthalene-2-carbaldehyde	3453-33-6	76991	COC1=CC2=C(C=C1)C=C(C=C2)C=O							NC	
+4-Methoxyacetophenone	100-06-1	7476	CC(=O)C1=CC=C(C=C1)OC	95.3	99.9	56	469	NAN	426	NC	
+Formulation 7	88671-89-0/124495-18-7									73.3	
+3-Hydroxy-4-methoxybenzaldehyde	621-59-0	12127	COC1=C(C=C(C=C1)C=O)O							NC	
+Benzen, 1-methoxy-4- methyl-2-nitro	119-10-8	67058	CC1=CC(=C(C=C1)OC)[N+](=O)[O-]	0	0.3		86.7	ND	424	NC	
+3-Chloro-4-methoxybenzaldehyde	4903-09-7	78619	COC1=C(C=C(C=C1)C=O)Cl	93.5	31.3	>2000				NC	
+8-[(4-Phthalimido-1-methylbutyl)amino]-2,6-dimethoxy-4-methyl-5-(3-trifluoromethylphenoxy)quinoline	106635-87-4	13745927	CC1=CC(=NC2=C1C(=C(C=C2NC(C)CCCN3C(=O)C4=CC=CC=C4C3=O)OC)OC5=CC=CC(=C5)C(F)(F)F)OC							NC	
+N-(4-Methoxyphenyl)-3-oxobutanamide	5437-98-9	21576	CC(=O)CC(=O)NC1=CC=C(C=C1)OC							8.6	
+Pentadecylcatechol	492-89-7	68118	CCCCCCCCCCCCCCCC1=C(C(=CC=C1)O)O								P
+cis-4-Cyano-4-[3-(cyclopentyloxy)-4-methoxyphenyl]cyclo-hexanecarboxylic acid	153259-65-5	151170	COC1=C(C=C(C=C1)C2(CCC(CC2)C(=O)O)C#N)OC3CCCC3							NC	
+Formulation 40	422556-08-9/145701-23-1/81406-37-3/99607-70-2									6.4	
+5-Methoxy-6-(trifluoromethyl)-2,3-dihydro-1H-indole	178896-79-2	11206713	COC1=C(C=C2C(=C1)CCN2)C(F)(F)F							36.9	
+1-Aminopyridazin-Ium Iodide	35073-04-2									NC	
+3'-[(2z)-[1-(3,4-Dimethylphenyl)-1,5-dihydro-3-methyl)-5-oxo-4h-pyrazol-4-ylidene]hydrazino]-2'-hydroxy-[1,1'-biphenyl]-3-carboxylic acid, compound with 2-aminoethanol (2:1)	496775-62-3	9915926	CC1=C(C=C(C=C1)N2C(=O)C(=C(N2)C)NN=C3C=CC=C(C3=O)C4=CC(=CC=C4)C(=O)O)C.C(CO)N.C(CO)N							NC	
+Abietic acid	514-10-3	10569	CC(C)C1=CC2=CCC3C(C2CC1)(CCCC3(C)C(=O)O)C	99.9	83.7	16.56	ND	ND	89.6	15	P
+1-Phenyl-2-methylbutane-1,3-dione	6668-24-2	569369	CC(C(=O)C)C(=O)C1=CC=CC=C1							29	
+1-Methyl-3-nitronitrosoguanidine	70-25-7	9562060	CN(C(=N[N+](=O)[O-])N)N=O							0.03	
+Dextran	9004-54-0	4125253	C(C1C(C(C(C(O1)OCC2C(C(C(C(O2)OCC(C(C(C(C=O)O)O)O)O)O)O)O)O)O)O)O			ND	ND	ND	5000		N
+5,5-Dimethyl-3-methylenedihydro-2(3H)-furanone	29043-97-8	12303374	CC1(CC(=C)C(=O)O1)C							2	
+3-iodoprop-1-ynyl N-butylcarbamate	87977-28-4	9921791	CCCCNC(=O)OC#CCI							0.9	
+4-nitrobenzene-1,2-diamine	99-56-9	5111791	C1=CC(=C(C=C1[N+](=O)[O-])N)N							NC	
+Camphorquinone	465-29-2	25208	CC1(C2CCC1(C(=O)C2=O)C)C							10	
+4-Amino-3-methylphenol	2835-99-6	17819	CC1=C(C=CC(=C1)O)N	55.1	71.2	5.28				1.5	
+Linolenic acid	463-40-1	5280934	CCC=CCC=CCC=CCCCCCCCC(=O)O							9.9	
+N-[2-Benzyloxy-5-(2-bromo-1-hydroxy-ethyl)-phenyl]-formamide	201677-59-0	11142645	C1=CC=C(C=C1)COC2=C(C=C(C=C2)C(CBr)O)NC=O							NC	
+Butylene glycol	107-88-0	7896	CC(CCO)O								N
+3-Methyleugenol	186743-26-0	45266909	CC1=C(C(=CC(=C1)CC=C)OC)O							32	
+2-HPM (2-Hydroxypropyl methacrylate)	923-26-2	13539	CC(COC(=O)C(=C)C)O	96.5	NAN	866	ND	ND	1000	NC	
+Tetramethylthiuram disulfide	137-26-8	5455	CN(C)C(=S)SSC(=S)N(C)C	100	93.1	0.8	9.11	2.46	10	0.13	P
+6-Methylisoeugenol	13041-12-8	20975429	CC=CC1=C(C(=C(C=C1)O)OC)C							1.6	
+1-Bromobutane	109-65-9	8002	CCCCBr	47.6	1.2	1842.4	445.7	244.5	500	NC	
+alpha-Methyl-1,3-benzodioxole-5-propionaldehyde	1205-17-0	64805	CC(CC1=CC2=C(C=C1)OCO2)C=O							16.4	
+Aluminum  chloride	7446-70-0									NC	N
+Isopropylisoeugenol	186743-30-6									0.6	
+cis-6-Nonenal	2277-19-2	5362720	CCC=CCCCCC=O	92	97.3	121.93				23	
+Trienol	13504-15-9	395352	CC1CC2C3CCC4=CC(=O)C=CC4(C3=CCC2(C1(C(=O)CO)O)C)C							NC	
+Atrazine	1912-24-9	2256	CCNC1=NC(=NC(=N1)Cl)NC(C)C							31.3	
+1,2-Benzisothiazolin-3-one	2634-33-5	17520	C1=CC=C2C(=C1)C(=O)NS2	97.7	NAN	3.16	ND	0.54	1.82	2.3	P
+Formulation 37	2921-88-2/76703-62-3									5.6	
+5-[[4-[(2,3-Dimethyl-2h-indazol-6-yl)-methylamino]-2-pyrimidinyl]amino]-2-methylbenzene-sulfonamide	444731-52-6	10113978	CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N							NC	
+1.2-Propanediol	57-55-6	1030	CC(CO)O	100	99.4	NAN	NAN	NAN	1000	NC	N
+Palmarosa oil	8014-19-5									9.6	
+1-Chloromethylpyrene	1086-00-6	97581	C1=CC2=C3C(=C1)C=CC4=C(C=CC(=C43)C=C2)CCl							0.005	
+(s)-2-Hydroxy-2-methylsuccinic acid	6236-09-5	441696	CC(CC(=O)O)(C(=O)O)O							NC	
+7-Hydroxycitronellal	107-75-5	7888	CC(CCCC(C)(C)O)CC=O	82.5	93.5	31	35.4	26.8	700	18.8	P
+2,3,4,5-Tetrahydro-n-(1-methylethyl)-2,4-dioxo-n,5-diphenyl-3-[(phenylmethoxy)-imino]-1h-1,5-benzodiazepine-1-acetamide	305366-97-6	57376997	CC(C)N(C1=CC=CC=C1)C(=O)CN2C3=CC=CC=C3N(C(=O)C(=NOCC4=CC=CC=C4)C2=O)C5=CC=CC=C5							NC	
+8-Chloro-3-pentyl-3,7-dihydro-1h-purine-2,6-dione	862892-90-8	46215799	CCCCCN1C2=C(C(=O)NC1=O)NC(=N2)Cl							31.9	
+(3r,3as,6ar)-Hexahydrofuro-[2,3-b]furan-3-yl [(1s,2r)-3-[(1,3-benzodioxol-5-ylsulfonyl)(2-methylpropyl)-amino]-2-hydroxy-1-[[4-[(2-methyl-4-thiazolyl)methoxy]phenyl]methyl]-propyl]carbamate	313682-08-5	5743186	CC1=NC(=CS1)COC2=CC=C(C=C2)CC(C(CN(CC(C)C)S(=O)(=O)C3=CC4=C(C=C3)OCO4)O)NC(=O)OC5COC6C5CCO6							NC	
+Ethyl 1H-1,2,4-triazole-3-carboxylate	64922-04-9	255397	CCOC(=O)C1=NC=NN1							NC	
+3,5,5-Trimethylhexanoyl chloride	36727-29-4	161929	CC(CC(=O)Cl)CC(C)(C)C							2.7	
+"Methyl-2,3-hexanedione"	13706-86-0	26204	CC(C)CC(=O)C(=O)C	74.2	92.5	49.79	253.7	211.6	258.1	25.8	P
+3-Hydroxy-2-nitropyridine	15128-82-2	27057	C1=CC(=C(N=C1)[N+](=O)[O-])O							NC	
+6-[(2-Methyl-3-pyridinyl)oxy]-3-pyridinamine	181633-42-1	10821946	CC1=C(C=CC=N1)OC2=NC=C(C=C2)N							45	
+DL-lactic acid	50-21-5 or 598-82-3	612	CC(C(=O)O)O	100	99.2	NAN	NAN	NAN	2800	NC	N
+3-Methylcatechol	488-17-5	340	CC1=C(C(=CC=C1)O)O	80.3	20.2	15.8					
+Potassium persulfate	7727-21-1	24412	[O-]S(=O)(=O)OOS(=O)(=O)[O-].[K+].[K+]							0.86	
+Cyclamen aldehyde	103-95-7	517827	CC(C)C1=CC=C(C=C1)CC(C)C=O	81.1	99	111.86	ND	ND	43.1	22.3	
+Imidazolidinyl urea	39236-46-9	38258	C(NC(=O)NC1C(=O)NC(=O)N1CO)NC(=O)NC2C(=O)NC(=O)N2CO	96.2	99.1	29.9	42.3	39.3	40.1	24	P
+1,1-Dimethylethyl 3-[[[[(3s)-2,3,4,5-tetrahydro-1-[2-[(1-methylethyl)phenylamino]-2-oxoethyl]-2,4-dioxo-5-phenyl-1h-1,5-benzodiazepin-3-yl]amino]carbonyl]amino]benzoate	305366-94-3	57376996	CC(C)N(C1=CC=CC=C1)C(=O)CN2C3=CC=CC=C3N(C(=O)C(C2=O)NC(=O)NC4=CC=CC(=C4)C(=O)OC(C)(C)C)C5=CC=CC=C5							37.5	
+Isopropyl dicyandiamide	35695-36-4	12295253	CC(C)N(C#N)C#N							NC	
+Zinc sulfate	7733-02-0	24424	[O-]S(=O)(=O)[O-].[Zn+2]				ND	ND	670.8		
+Tin chloride	1344-13-4	159610	[Cl-].[Cl-].[Cl-].[Cl-].[Sn+4]							3.6	
+Formulation 25	1702-17-6/26544-20-7/ 81406-37-3									5.7	
+Isononanoyl chloride	57077-36-8	92654	CC(C)CCCCCC(=O)Cl							2.7	
+2-(Benzyl)tert-butyl)amino)-1-(alpha,4-dihydroxy-m-tolyl)ethane	24085-03-8	91122	CC(C)(C)N(CC1=CC=CC=C1)CC(C2=CC(=C(C=C2)O)CO)O							NC	
+a-Methyl cinnamic aldehyde	101-39-3	5354896	CC(=CC1=CC=CC=C1)C=O	89.6	71.2	41.27	40.3	70.16	139	4.5	
+2,4-Hexadienal	142-83-6	637564	CC=CC=CC=O							3.5	
+4-Ethoxymethylene-2-phenyl-2-oxazolin-10- one	15646-46-5	1712093	CCOC=C1C(=O)OC(=N1)C2=CC=CC=C2	74.7	50.4	84.3	2.71	ND	166.6	0.0007	
+beta-Phellandrene	555-10-2	11142	CC(C)C1CCC(=C)C=C1							5.6	
+Benzenepropanol, acetate	122-72-5	31226	CC(=O)OCCCC1=CC=CC=C1							IDR	
+2-(3,4-Dimethyl-phenyl)-5-methyl-2,4-dihydropyrazol-3-one	18048-64-1	3714577	CC1=NN(C(=O)C1)C2=CC(=C(C=C2)C)C							0.1	
+1-[5-[(4-Fluorophenyl)methyl]-2-furanyl]ethanone	280571-34-8	10130640	CC(=O)C1=CC=C(O1)CC2=CC=C(C=C2)F							NC	
+4-Carboxyphenyl acetate	2345-34-8	16865	CC(=O)OC1=CC=C(C=C1)C(=O)O	9.4	78.4	>2000					
+Oleyl methane sulfonate	35709-09-2	6016198	CCCCCCCCC=CCCCCCCCCOS(=O)(=O)C							25	
+2'-4-dihydroxychalcone	13323-66-5	5357218	C1=CC=C(C(=C1)C(=O)C=CC2=CC=C(C=C2)O)O							NC	
+Squalene	111-02-4 or 7683-64-9									7.9	
+Cytosine hemihydrate	71-30-7	597	C1=C(NC(=O)N=C1)N							NC	
+alpha-Terpinene	99-86-5	7462	CC1=CC=C(CC1)C(C)C							8.9	
+2-(4-tert-Amylcyclohexyl)acetaldehyde	620159-84-4	11333063	CCC(C)(C)C1CCC(CC1)CC=O							37	
+Dipropylene triamine	56-18-8	5942	C(CN)CNCCCN							0.9	
+Triton X-100	9002-93-1	5590	CC(C)(C)CC(C)(C)C1=CC=C(C=C1)OCCO							7.5	
+2-[(benzyloxy)-imino]malonic acid	305366-96-5	18755335	C1=CC=C(C=C1)CON=C(C(=O)O)C(=O)O							NC	
+Alachlor	15972-60-8	2078	CCC1=C(C(=CC=C1)CC)N(COC)C(=O)CCl							2.4	
+2,2,6,6-Tetramethyl-3,5-heptanedione	1118-71-4	70700	CC(C)(C)C(=O)CC(=O)C(C)(C)C	98.6	100	>2000				27	
+Nickel sulfate	7786-81-4	24586	[O-]S(=O)(=O)[O-].[Ni+2]			329				4.3	
+alpha-Phellandrene	99-83-2	7460	CC1=CCC(C=C1)C(C)C							5.4	
+1-Bromooctadecane	112-89-0	8218	CCCCCCCCCCCCCCCCCCBr							15	
+Salicylic acid	69-72-7	338	C1=CC=C(C(=C1)C(=O)O)O	96.5	78.9	NAN	NAN	NAN	1000	12.2	N
+Formulation 2	81406-37-3/145701-23-1									15.7	
+3-Methylisoeugenol	186743-29-3	57370849	CC=CC1=CC(=C(C(=C1)OC)O)C							3.6	
+1-Bromoheptadecane	3508-00-7	19022	CCCCCCCCCCCCCCCCCBr							4.8	
+Sodium lauroyl lactylate	13557-75-0	23674328	CCCCCCCCCCCC(=O)OC(C)C(=O)OC(C)C(=O)[O-].[Na+]							15	
+Equol	531-95-3	91469	C1C(COC2=C1C=CC(=C2)O)C3=CC=C(C=C3)O							NC	
+R-Carvone	6485-40-1	439570	CC1=CCC(CC1=O)C(=C)C	25.1	0.6		95	114	245	12.9	
+14-Hydroxynor-morphinone	84116-46-1	15605738	C1CNC2CC3=C4C15C2(C=CC(=O)C5OC4=C(C=C3)O)O							8.4	
+6-Methoxy-4-methyl-2(1H)-quinolinone	5342-23-4	220017	CC1=CC(=O)NC2=C1C=C(C=C2)OC							NC	
+Pyridine	110-86-1	1049	C1=CC=NC=C1	-0.1	-2.2	Below	2370	NAN	4166.7	72	N
+8-Acetoxycarvotanacetone	87578-93-6	538920	CC1=CCC(CC1=O)C(C)(C)OC(=O)C							NC	
+Benzyl alcohol	100-51-6	244	C1=CC=C(C=C1)CO			ND				NC	
+2,6-Dimethoxy-4-methyl-8-nitro-5-[3-(trifluoromethyl)-phenoxy]quinoline	189746-15-4	11058632	CC1=CC(=NC2=C1C(=C(C=C2[N+](=O)[O-])OC)OC3=CC=CC(=C3)C(F)(F)F)OC							3.5	
+4-((2-Hydroxyethyl)amino)-3-nitrophenol	65235-31-6	5488102	C1=CC(=C(C=C1O)[N+](=O)[O-])NCCO							0.1	
+2,3-Butanedion	431-03-8	650	CC(=O)C(=O)C	92.8	73	74	24.4	46.9	94	11	
+Clarithromycin	81103-11-9									NC	
+Spearmint oil	8008-79-5									8.2	
+2',3',4'-Trihydroxychalcone	1482-74-2	6304520	C1=CC=C(C=C1)C=CC(=O)C2=C(C(=C(C=C2)O)O)O							0.1	
+Isoeugenol	97-54-1	853433	CC=CC1=CC(=C(C=C1)O)OC	99.1	89.3	3	104	NAN	112.5	0.5	P
+3-[(2R)-3-[[2-(2,3-Dihydro-1H-inden-2-yl)-1,1-dimethyl-ethyl]amino]-2-hydroxy propoxy]-4,5-difluorobenzene propanoic acid	753449-67-1									NC	
+3,4-Epoxyclohexylethyl-cyclopolymethylsiloxane	121225-98-7									NC	
+alpha-Methylionone	127-51-5	5372174	CC1=CCCC(C1C=C(C)C(=O)C)(C)C							21.8	
+(2R,4S)-4-(4-Acetyl-1-piperazinyl)-n-{(1r)-1-[3,5-bis(trifluoro-methyl)phenyl]-ethyl}-2-(4-fluoro-2-methylphenyl)-n-methyl-1-piperidine-carboxamide monomethane-sulfonate	414910-30-8	11686295	CC1=C(C=CC(=C1)F)C2CC(CCN2C(=O)N(C)C(C)C3=CC(=CC(=C3)C(F)(F)F)C(F)(F)F)N4CCN(CC4)C(=O)C.CS(=O)(=O)O							NC	
+Benzo[a]pyrene	50-32-8	2336	C1=CC=C2C3=C4C(=CC2=C1)C=CC5=C4C(=CC=C5)C=C3							0.0009	
+2-Hydroxybenzothiazole	934-34-9	13625	C1=CC=C2C(=C1)NC(=O)S2							NC	
+Benzyl benzoate	120-51-4	2345	C1=CC=C(C=C1)COC(=O)C2=CC=CC=C2	99.8	97	72.49	ND	ND	297.2	17	N
+Propyl 4-hydroxybenzoate	94-13-3	7175	CCCOC(=O)C1=CC=C(C=C1)O	91.8	100	5	61.4	70.8	106.7	NC	N
+1-Iodohexane	638-45-9	12527	CCCCCCI	48.7	-0.1	25.6	91.01	ND	80	NC	
+3-Bromomethyl-5,5-dimethyl-dihydro-2(3H)-furanone	154750-20-6									3.5	
+Zinc mercaptobenzothiazole	155-04-4	9071	C1=CC=C2C(=C1)N=C(S2)[S-].C1=CC=C2C(=C1)N=C(S2)[S-].[Zn+2]							NC	
+Bis-3,4-epoxycyclohexyl-ethyl-phenyl-methylsilane(Ph-Sil)	154265-59-5	23496350	C[Si](CCC1CCC2C(C1)O2)(CCC3CCC4C(C3)O4)C5=CC=CC=C5							15.6	
+Anthranilic acid	118-92-3	227	C1=CC=C(C(=C1)C(=O)O)N							NC	
+Penicillin	61-33-6	5904	CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C	85.7	100	1308.7	ND	3754.3	5000	1.6	P
+Kanamycin	59-01-8	6032	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N				ND	ND	1000		P
+Pentachlorophenol	87-86-5	992	C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O	100	85.5	>2000				20	N
+Dihydroeugenol	2785-87-7	17739	CCCC1=CC(=C(C=C1)O)OC	100	87.7	462				6.8	
+Benzene	71-43-2	241	C1=CC=CC=C1								N
+Benzyl cinnamate	103-41-3	5273469	C1=CC=C(C=C1)COC(=O)C=CC2=CC=CC=C2	1.3	0	11	ND	ND	>1000	18.4	
+Diethylamine	109-89-7	8021	CCNCC							14.2	
+N-{[(1,1-Dimethylethyl) oxy]carbonyl}-4-fluoro-beta-(4-fluorophenyl)-l-phenylalanine	481055-29-2									NC	
+Anethole	104-46-1	637563	CC=CC1=CC=C(C=C1)OC							2.3	N
+2-Methyl-4H,3,1-benzoxazin-4-one	525-76-8	68236	CC1=NC2=CC=CC=C2C(=O)O1							0.7	
+Gold sodium thiosulfate	10210-36-3									NC	
+Ethylene diamine	107-15-3	3301	C(CN)N	96.6	100	99.88	265.7	NAN	271.7	2.2	P
+1,2-Diaminocyclohexane	694-83-7	4610	C1CCC(C(C1)N)N							0.4	
+2,4-Dinitrofluorobenzene	70-34-8	6264	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])F							0.016	
+2-Benzyl-tert-butylamino-3'-hydroxymethyl-4'-hydroxyaceto-phenone hydrochloride	24085-08-3	154872	CC(C)(C)N(CC1=CC=CC=C1)CC(=O)C2=CC(=C(C=C2)O)CO.Cl							21.8	
+Copper (II) chloride	7447-39-4									0.4	
+2-Fluoro-5-nitroaniline	369-36-8	67785	C1=CC(=C(C=C1[N+](=O)[O-])N)F	7.8	0.7		ND	ND	>1000	NC	
+Sodium-3,3,5-trimethylhexanoyloxybenzenesulfonate	94612-91-6	23669610	CC(CC(=O)OC1=CC=C(C=C1)S(=O)(=O)[O-])CC(C)(C)C.[Na+]							6.4	
+Linalool	78-70-6	6549	CC(=CCCC(C)(C=C)O)C	100	92.1	>2000	ND	68.3	290	30	P
+Octanenitrile	124-12-9	31286	CCCCCCCC#N	100	96.9	>2000				NC	
+Bisphenol A diglycidyl ether	1675-54-3	2286	CC(C)(C1=CC=C(C=C1)OCC2CO2)C3=CC=C(C=C3)OCC4CO4	74.8	98.9	5.2	18.27	22.2	36	1.5	P
+1-Chloro-2,7-dinitrobenzene	97-00-7	6	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])Cl	100	58.3	1.4	1.92	2.23	5	0.012	P
+2.4-Dinitrobenzene sulfonic acid	89-02-1	6959	C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])S(=O)(=O)O							0.8	
+Citronellol	106-22-9	8842	CC(CCC=C(C)C)CCO	5.7	0.6		50.31	ND	92.6	43.5	N
+Methyl hexadecyl sulfonate	4230-15-3									NC	
+3 and 4-(4-Hydroxy-4-methylpentyl)-3-cyclohexane-1-carboxaldehyde	31906-04-4	91604	CC(C)(CCCC1=CCC(CC1)C=O)O	60.6	96.6	79.6	76	75.2	254.8	17	P
+R(+)-Limonene	5989-27-5	440917	CC1=CCC(CC1)C(=C)C							69	
+Benzene, 2-bromoethyl	103-63-9	7666	C1=CC=C(C=C1)CCBr							6.2	
+Gold (III) chloride	13453-07-1									IDR	P
+2-Chloro-6-methoxy-4-methylquinoline	6340-55-2	224788	CC1=CC(=NC2=C1C=C(C=C2)OC)Cl							NC	
+3-Dimethylamino propylamine	109-55-7	7993	CN(C)CCCN	89.8	100	85.76	82.1	165.8	276.7	2.2	P
+Potassium dichromate	7778-50-9	24502	[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].[K+].[K+]	61.6	-2.2		2.09	1.06	3.2	0.01	P
+Perillaaldehyde	2111-75-3	16441	CC(=C)C1CCC(=CC1)C=O	85	86.2	16.64	51.43	ND	64.3	8.1	
+[4S-[1(E),4alpha,5alpha]]-1-[3-[2-[4-Methoxy-2-(phenylmethoxy)-benzoyl]-4-propoxyphenyl]-1-oxo-2-propenyl]-3,4-dimethyl-5-phenyl-2-imidazoli-dinone	190965-46-9									NC	
+2,4-Dichloropyrimidine	3934-20-1	77531	C1=CN=C(N=C1Cl)Cl							0.7	
+Glyoxal	107-22-2	7860	C(=O)C=O	94	67.8	77	ND	286.7	396	1.4	P
+Ethyl acrylate	140-88-5	8821	CCOC(=O)C=C	97.6	93.7	45.49				28.7	P
+Geranyl nitrile	5146-66-7	1551246	CC(=CCCC(=CC#N)C)C							NC	
+Rifamycin SV sodium salt	14897-39-3									NC	
+5-Methyl-2-phenyl-2-hexenal	21834-92-4	5370602	CC(C)CC=C(C=O)C1=CC=CC=C1							4.4	
+Formulation 51	40487-42-1/422556-08-9									14.7	
+Tartaric acid	87-69-4	444305	C(C(C(=O)O)O)(C(=O)O)O	96.2	98.8	3				NC	
+1-Bromopentadecane	629-72-1	12394	CCCCCCCCCCCCCCCBr							5.1	
+tert-Butyl-3-aminobenzoate	92146-82-2	2737408	CC(C)(C)OC(=O)C1=CC(=CC=C1)N							NC	
+2-Amino-6-chloro-4-nitrophenol	6358-09-4	4679699	C1=C(C=C(C(=C1Cl)O)N)[N+](=O)[O-]							2.2	
+4-Bromo-1-phthalimidopentane	59353-62-7	240534	CC(CCCN1C(=O)C2=CC=CC=C2C1=O)Br							26.9	
+Ammonium tetrachloroplatinate	13820-41-2	16211508	[NH4+].[NH4+].Cl[Pt-2](Cl)(Cl)Cl							IDR	
+Phthalic anhydride	85-44-9	6811	C1=CC=C2C(=C1)C(=O)OC2=O	98.1	94	NAN	NAN	NAN	400		
+2-[1-(4-Bromophenyl)-1-phenylethoxy]-N,N-dimethylethanamine hydrochloride	13977-28-1	13059512	CC(C1=CC=CC=C1)(C2=CC=C(C=C2)Br)OCCN(C)C.Cl							5.55	
+Geranium oil	8000-46-2	5367785	CC=C(C)C(=O)OCC=C(C)CCC=C(C)C							NC	
+1-chloro-3-iodopropane	6940-76-7	81363	C(CCl)CI							NC	
+(2S,4S)-1-[(2S)-2-Amino-3,3-bis(4-fluorophenyl)-1-oxopropyl]-4-fluoro-2-pyrrolidine carbonitrile	483369-58-0	9887755	C1C(CN(C1C#N)C(=O)C(C(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F)N)F							NC	
+3-[4-[(6-Bromohexyl)oxy]-butyl]benzene-sulfonamide	452342-04-0	21895438	C1=CC(=CC(=C1)S(=O)(=O)N)CCCCOCCCCCCBr							NC	
+1,1,3-Trimethyl-2-formyylcyclohexa-2,4-dione	116-26-7	61041	CC1=C(C(CC=C1)(C)C)C=O			5.39				7.5	
+Beryllium (II) sulfate	7787-56-6	62672	[Be+2].O.O.O.O.[O-]S(=O)(=O)[O-]							NAN	P
+5-Chloro-2,6-dimethoxy-4-methyl-8-nitroquinoline	189746-21-2	10968005	CC1=CC(=NC2=C1C(=C(C=C2[N+](=O)[O-])OC)Cl)OC							IDR	
+2-Nitro-4-(propylthio)aniline	54393-89-4	3016876	CCCSC1=CC(=C(C=C1)N)[N+](=O)[O-]							7.5	
+Aniline	62-53-3	6115	C1=CC=C(C=C1)N	100	90.3	2	927.9	550.8	930	13.25	P
+Formulation 19	1689-99-2/81406-37-3									0.2	
+4-Nitrobenzyl bromide	100-11-8	66011	C1=CC(=CC=C1CBr)[N+](=O)[O-]	99.8	75.8	1.3	0.8	0.91	3.6	0.05	
+N-isopropyl-N'-phenyl-p-phenylenediamine	101-72-4	7573	CC(C)NC1=CC=C(C=C1)NC2=CC=CC=C2							0.4	
+3-Ethoxy-1-(2',3',4',5'-tetramethylphenyl)propane-1,3-dione	170928-69-5									33	
+Triethanolamine	102-71-6	7618	C(CO)N(CCO)CCO								N
+C6 Azalactone	176665-02-4									1.3	
+Propanoic acid, 3-bromo, methyl ester	3395-91-3	76934	COC(=O)CCBr	99.8	84.4		ND	ND	78	NC	
+6-iodo-quinazolin-4-ol	16064-08-7	763741	C1=CC2=C(C=C1I)C(=O)N=CN2							NC	
+Eugenol	97-53-0	3314	COC1=C(C=CC(=C1)CC=C)O	90.8	80.8	64	64.4	137.2	143.2	5.4	P
+4-Fluoro-2-pyrrolidine-carboxamide	748165-40-4	12066286	C1C(CNC1C(=O)N)F							NC	
+Chlorobenzene	108-90-7	7964	C1=CC=C(C=C1)Cl	99.6	98.7	NAN	288	ND	498.3	NC	
+Tropolone	533-75-5	10789	C1=CC=C(C(=O)C=C1)O	-3.3	1.1		27.3	30.18	86.7	4.4	
+(2E)-2-[(2-formyl-4-hydroxyphenyl)-methylidene]-butanedioic acid	773059-57-7	53426996	C1=CC(=C(C=C1O)C=O)C=C(CC(=O)O)C(=O)O							47.8	
+Formaldehyde	50-00-0	712	C=O	75	88.8	63.2	4.3	5.14	5.8	0.11	P
+Mercuric (II) chloride	7487-94-7	24085	Cl[Hg]Cl							IDR	P
+Citronella oil	8000-29-1	7794	CC(CCC=C(C)C)CC=O							NC	
+2-Methyl-2H-Isothiazol-3-one	2682-20-4	39800	CN1C(=O)C=CS1	100	100	11.8	9.23	7.89	24.7	0.37	P
+Farnesol	4602-84-0	3327	CC(=CCCC(=CCCC(=CCO)C)C)C								P
+Phenol 2,2-azobis-	2050-14-8	6811824	C1=CC=C(C(=C1)NN=C2C=CC=CC2=O)O							27.9	
+Formulation 35	566191-89-7/57213-69-1									NC	
+Cobalt chloride	7646-79-9	24288	Cl[Co]Cl	30.3	35	75	223	35.5	208.3	0.4	
+Iodopropynyl butyl carbamate	55406-53-6	62097	CCCCNC(=O)OCC#CI	99.8	1		ND	8.15	12.8		P
+Formulation 21	86479-06-3	91741	C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC(=C(C(=C2)Cl)OC(C(F)F)(F)F)Cl)F							NC	
+p-tert-Butylphenyl 1-(2,3-epoxy)propylether	3101-60-8	18360	CC(C)(C)C1=CC=C(C=C1)OCC2CO2							0.4	
+N-(3,4-Dichlorophenyl)-N'-(1-methylethyl)-imidodicarbonimidic diamide monohydrochloride	15537-76-5	13956122	CC(C)N=C(N)N=C(N)NC1=CC(=C(C=C1)Cl)Cl.Cl							1.3	
+6-Methyleugenol	186743-24-8	15607491	CC1=C(C=CC(=C1OC)O)CC=C							17	
+Isopropanol	67-63-0	3776	CC(C)O	100	99.5	NAN	NAN	NAN	5000	NC	N
+(3S,6R)-3-Isopropyl-6-methylcyclohexene	5113-93-9									NC	
+Lilial	80-54-6	228987	CC(CC1=CC=C(C=C1)C(C)(C)C)C=O	86	99.3	>2000	ND	44.6	42.2	19	P
+Dodecylmethanesulfonate	51323-71-8	247385	CCCCCCCCCCCCOS(=O)(=O)C							8.8	
+1-(4-Ethoxy-phenyl)-2-[4-(methyl-sulfonyl)phenyl]-ethanone	346413-00-1	9944854	CCOC1=CC=C(C=C1)C(=O)CC2=CC=C(C=C2)S(=O)(=O)C							NC	
+Ovalbumin	9006-59-1	5289086	CC(=CCC1C(O1)(C)C2(C(C(=O)CCC2(C)O)OC)O)C							19	
+Nickel chloride	7718-54-9	24385	Cl[Ni]Cl	43.1	0.3	355	Below	Below	ND	5.5	
+Sorbitol	50-70-4	453	C(C(C(C(C(CO)O)O)O)O)O								N
+Acetyl cedrene	32388-55-9	16220111	CC1CCC2C13CC(C2(C)C)C(=C(C3)C(=O)C)C							13.9	
+Fumaric acid	110-17-8	444972	C(=CC(=O)O)C(=O)O	10.8	4.6	Below	Below	Below	ND	NC	
+Octinol	818-72-4	13166	CCCCCC(C#C)O							4.7	
+2,4-Heptadienal	5910-85-0	5283321	CCC=CC=CC=O	97.3	76.1	4.74	3.51	5.09	6.9	4	
+3-Cyclohexene-1-methanol, 2,4,6-trimethyl-	68527-77-5	109458	CC1CC(=CC(C1CO)C)C							NC	
+1-Chlorohexadecane	4860-03-1	20993	CCCCCCCCCCCCCCCCCl							9.1	
+4-Amino-3-nitrophenyl thiocyanate	54029-45-7	104677	C1=CC(=C(C=C1SC#N)[N+](=O)[O-])N							0.8	
+1-Phenyl-1,2-propanedione	579-07-7	11363	CC(=O)C(=O)C1=CC=CC=C1	65.5	84.6	121.21	81.5	56.7	123.1	1.3	
+Geraniol	106-24-1	637566	CC(=CCCC(=CCO)C)C	100	90	209.79	123.03	ND	139.2	11.4	P
+Fluorescein Isothiocyanate	3326-32-7 or 27072-45-3	18730	C1=CC2=C(C=C1N=C=S)C(=O)OC23C4=C(C=C(C=C4)O)OC5=C3C=CC(=C5)O	100	61.1	645.05				0.143	
+Sorbic acid	110-44-1	5251	CC=CC=CC(=O)O								N
+Sodium persulfate	7775-27-1	62655	[O-]S(=O)(=O)OOS(=O)(=O)[O-].[Na+].[Na+]							2.39	
+2-Bromo-5-hydroxy-benzaldehyde	2973-80-0	387179	C1=CC(=C(C=C1O)C=O)Br							2.6	
+Formulation 23	57213-69-1/55335-06-3									NC	
+Chlorothalonil	1897-45-6	15910	C(#N)C1=C(C(=C(C(=C1Cl)Cl)Cl)C#N)Cl	100	1.9		0.21	ND	0.72	0.004	
+(5-chloro)-methyl-isothiazolinone	26172-55-4	33344	CN1C(=O)C=C(S1)Cl	96.3	64.9	0.8	14	Below	ND	0.009	
+Sodium metasilicate	6834-92-0	23266	[O-][Si](=O)[O-].[Na+].[Na+]							NC	
+Butanoic acid, 3-methyl, 2-phenylethyl ester	140-26-1	8792	CC(C)CC(=O)OCCC1=CC=CC=C1							39.5	
+2-Acetyl-cyclohexanone	874-23-7	13400	CC(=O)C1CCCCC1=O	81.8	87.5	756.61	ND	109.7	423	NC	
+1-Bromononane	693-58-3	12742	CCCCCCCCCBr							NC	
+3,5-Diamino-2,6-dimethoxypyridinedihydrochloride	56216-28-5	21988722	COC1=C(C=C(C(=N1)OC)N)N.Cl							6.9	
+(4R,5S)-(-)-1,5-Dimethyl-4-phenyl-2-imidazolidinone	92841-65-1	6931391	CC1C(NC(=O)N1C)C2=CC=CC=C2							NC	
+Trifluralin EC	1582-09-8	5569	CCCN(CCC)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]							5.8	
+3-Hydroxy-2-phenyl-4-quinolinecarboxylic acid	485-89-2	10239	C1=CC=C(C=C1)C2=NC3=CC=CC=C3C(=C2O)C(=O)O							NC	
+4S)-1-(Tert-butoxycarbonyl)-4-fluoro-L-prolinamide	426844-22-6	49760522	CC(C)(C)OC(=O)N1CC(CC1C(=O)N)F							NC	
+Undec-10-enal	112-45-8	8187	C=CCCCCCCCCC=O	-13.1	-0.1		ND	ND	54	6.8	
+1-Bromoeicosane	4276-49-7	20271	CCCCCCCCCCCCCCCCCCCCBr							6.1	
+Ethyl vanillin	121-32-4	8467	CCOC1=C(C=CC(=C1)C=O)O	98.9	90.3	161.7	ND	ND	569.5	NC	
+5-Chloro-6-methoxy-4-methyl-8-nitro-2(1h)-quinolinone	189746-23-4	18405980	CC1=CC(=O)NC2=C1C(=C(C=C2[N+](=O)[O-])OC)Cl							IDR	
+Farnesal	502-67-0 or 19317-11-4	5280598	CC(=CCCC(=CCCC(=CC=O)C)C)C	83.6	91.5	6	Below	40	ND	12	
+5-Chloro-2-hydroxy-3-nitro-[1,1-biphenyl]-3-carboxylic acid	376592-58-4	21072412	C1=CC(=CC(=C1)C(=O)O)C2=CC(=CC(=C2O)[N+](=O)[O-])Cl							20.3	
+1,2 dibromo 2,4 dicyanobutane	35691-65-7	61948	C(CC(CBr)(C#N)Br)C#N	99.6	-575.5	6.7	10.8	9.42	9.9	0.9	P
+Isopropyleugenol	51474-90-9	57350376	CC(C)OC1=C(C=C(C=C1)CC=C)OC							NC	
+2,2-bis-[4-(2-Hydroxy-3 methacryloxypropoxy)phenyl)]-propane	1565-94-2	15284	CC(=C)C(=O)OCC(COC1=CC=C(C=C1)C(C)(C)C2=CC=C(C=C2)OCC(COC(=O)C(=C)C)O)O	29.7	1.4		ND	ND	125.5	45.3	
+trans-2-Methyl-2-butenal	497-03-0	5321950	CC=C(C)C=O							NC	
+Azithromycin	83905-01-5	447043	CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O							IDR	
+Citral	5392-40-5	638011	CC(=CCCC(=CC=O)C)C	85.7	83.1	6	8.4	15	24	5.1	P
+3-Fluoro-5-(3-pyridinyl)benzen-amine	181633-36-3	15447787	C1=CC(=CN=C1)C2=CC(=CC(=C2)F)N							14.7	
+EGDM (Ethyleneglycol dimethacrylate)	97-90-5	7355	CC(=C)C(=O)OCCOC(=O)C(=C)C	100	87.6	10.6	2156	535.43	563.6	28	P
+(3aS,4R,5S,6S,8R,9R,9aR,10R)-6-Ethenyldeca-hydro-5-hydroxy-4,6,9,10-tetra-methyl-1-oxo-3a,9-propano-3aH-cyclopentacycloocten-8-yl hydroxyacetate	125-65-5									NC	
+C.I. Reactive yellow 174	106359-91-5	11969510	C=CS(=O)(=O)CCOCCNC1=NC(=NC(=N1)NC2=CC(=C(C=C2)N=NC3=C(C=C4C=C(C=C(C4=C3)S(=O)(=O)[O-])S(=O)(=O)[O-])S(=O)(=O)[O-])NC(=O)N)F.[Na+].[Na+].[Na+]							0.3	
+(3R,3aS,6aR)-Hexahydrofuro-[2,3-b]furan-3-ol	156928-09-5	9942150	C1COC2C1C(CO2)O							NC	
+Trimellitic anhydride	552-30-7	11089	C1=CC2=C(C=C1C(=O)O)C(=O)OC2=O	100	95.3	>2000	81.2	ND	250	0.11	
+Endo-tropine-3-mesylate	35130-97-3	16125705	CN1C2CCC1CC(C2)OS(=O)(=O)C							4.4	
+[4-(Ethoxymethyl)-2,6-dimethoxyphenyl]-boronic aci	591249-50-2	10236170	B(C1=C(C=C(C=C1OC)COCC)OC)(O)O							NC	
+Formulation 38	709-98-8	4933	CCC(=O)NC1=CC(=C(C=C1)Cl)Cl							15.9	
+Ammonium persulfate	7727-54-0	62648	[NH4+].[NH4+].[O-]S(=O)(=O)OOS(=O)(=O)[O-]							2	
+Hydrocortisone	50-23-7	5754	CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O							NC	N
+1,6-Bis(2,3-epoxypropoxy)hexane	16096-31-4	85960	C1C(O1)COCCCCCCOCC2CO2							1.9	
+Benzylidene acetone	122-57-6	637759	CC(=O)C=CC1=CC=CC=C1	96.5	98.5	7	25.8	34.6	35.3	3.7	
+5-Chloro-2-methylisothiazolinone /2-methylisothiazolinone	2682-20-4/26172-55-4									0.003	
+Trinitrochlorobenzene	28260-61-9	6953	C1=C(C=C(C(=C1[N+](=O)[O-])Cl)[N+](=O)[O-])[N+](=O)[O-]							0.007	
+(16-b)-21-(Acetyloxy)-17-hydroxy-16-methylpregna-1,4,9(11)-triene-3,20-dione	910-99-6	101901	CC1CC2C3CCC4=CC(=O)C=CC4(C3=CCC2(C1(C(=O)COC(=O)C)O)C)C							NC	
+Dimethyl carbonate	616-38-6	12021	COC(=O)OC							NC	
+4-Chloroaniline	106-47-8	7812	C1=CC(=CC=C1N)Cl	0.3	-0.1		87.7	ND	200	NC	
+4-Iodo-1-phthalimido-pentane	63460-47-9	12368203	CC(CCCN1C(=O)C2=CC=CC=C2C1=O)I							5	
+Linoleic acid	60-33-3	5280450	CCCCCC=CCC=CCCCCCCCC(=O)O							14.1	
+2,3-Dimethyl-2H-indazol-6-amine	444731-72-0	11542827	CC1=C2C=CC(=CC2=NN1C)N							NC	
+Cyclooctanol	696-71-9	12766	C1CCCC(CCC1)O							NC	
+2-Chloro-1-[(3-fluorophenyl)-methoxy]-4-nitrobenzene	443882-99-3	7059269	C1=CC(=CC(=C1)F)COC2=C(C=C(C=C2)[N+](=O)[O-])Cl							19.5	
+Phenyl isocyanate	103-71-9	7672	C1=CC=C(C=C1)N=C=O	29.6	49.2						
+Vinyl pyridine	1337-81-1	7521	C=CC1=CC=CC=N1	99.5	0.9		13.2	ND	72.4	1.6	
+Formulation 3	145701-23-1	11700495	COC1=NC=C(C2=NC(=NN21)S(=O)(=O)NC3=C(C=CC=C3F)F)F							NC	
+Formulation 39	422556-08-9/99607-70-2									17.5	
+Diethyl acetaldehyde	97-96-1	7359	CCC(CC)C=O	54.5	60.2	238.26	ND	460.2	>1000	76	
+DL-alpha-Tocopherol	10191-41-0	2116	CC1=C(C(=C2CCC(OC2=C1C)(C)CCCC(C)CCCC(C)CCCC(C)C)C)O	-0.3	-1.1		ND	ND	>1000	8.1	N
+Methyl methacrylate	80-62-6	6658	CC(=C)C(=O)OC	55.3	11.8	Below	1978	2978	ND	60	P
+Benzyl bromide	100-39-0	7498	C1=CC=C(C=C1)CBr	99.9	77.9	4.91	3.2	2.86	7.5	0.2	
+Chloramine T	127-65-1	3641960	CC1=CC=C(C=C1)S(=O)(=O)[N-]Cl.[Na+]	99.5	98.9		259.2	291	314.7		
+Ethyl 4-iodobenzoate	51934-41-9	142891	CCOC(=O)C1=CC=C(C=C1)I							8	
+SDS (Sodium dodecyl sulfate)	151-21-3	3423265	CCCCCCCCCCCCOS(=O)(=O)[O-].[Na+]	100	100	33.9	NAN	NAN	60	1.5	N
+(4R,5S)-1,5-Dimethyl-3-(1-oxo-2-propenyl)-4-phenyl-2-imidazo-lidinone	139109-23-2									0.004	
+Lead acetate	6080-56-4	22456	CC(=O)[O-].CC(=O)[O-].O.O.O.[Pb+2]							NC	
+3-Chloro-4-fluorobenzoyl chloride	65055-17-6	2736548	C1=CC(=C(C=C1C(=O)Cl)Cl)F							7.75	
+Formulation 41	150114-71-9/145701-23-1									54.5	
+2-Butoxyethyl acetate	112-07-2	8160	CCCCOCCOC(=O)C	86.9	32	>2000				NC	
+Formulation 17	1066-51-9/1071-83-6									8.4	
+Formulation 10	97886-45-8	91757	CC(C)CC1=C(C(=NC(=C1C(=O)SC)C(F)(F)F)C(F)F)C(=O)SC							29	
+Dimethyl sulfoxide	67-68-5	679	CS(=O)C							72	N
+Dimethyl sulfate	77-78-1	6497	COS(=O)(=O)OC							0.19	
+Nonanoylamidocaproylacidoxybenzenesulfonate	168151-92-6									14.2	
+DPCP	886-38-4	65057	C1=CC=C(C=C1)C2=C(C2=O)C3=CC=CC=C3	100	100	0.5	ND	3.92	6	IDR	P
+4'-Hydroxychalcone	2657-25-2	5282362	C1=CC=C(C=C1)C=CC(=O)C2=CC=C(C=C2)O							0.002	
+Chlorpyrifos	2921-88-2	2730	CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl							6.9	
+Trimethylhexamine diamine	25620-58-0									1.9	
+Tridecane	629-50-5	12388	CCCCCCCCCCCCC							48.4	
+2-Methylundecanal	110-41-8	61031	CCCCCCCCCC(C)C=O	6.5	100	24.24				10	
+Phenyl acetaldehyde	122-78-1	998	C1=CC=C(C=C1)CC=O	81.1	77.4	28.5	11.5	13.03	27	3	
+8-Hydroxy-5-[(1R)-1-hydroxy-2-[[2-[4-[(6-methoxy[1,1'-biphenyl]-3-YL)amino]phenyl]-ethyl]amino]ethyl]-2(1H)-quinolinone	530084-87-8	9871386	COC1=C(C=C(C=C1)NC2=CC=C(C=C2)CCNCC(C3=C4C=CC(=O)NC4=C(C=C3)O)O)C5=CC=CC=C5							NC	
+2,4-Diaminophenoxyethanoldihydrochloride	66422-95-5	47932	C1=CC(=C(C=C1N)N)OCCO.Cl.Cl							5.5	
+(2-Oxo-1-phenyl-pyrrolidin-3-yl)(triphenyl)-phosphonium bromide	148776-18-5	10767764	C1CN(C(=O)C1[P+](C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5.[Br-]							NC	
+Norbornene fluoroalcohol	305815-63-8	20617081	C1C2CC(C1C=C2)OCC(C(F)(F)F)(C(F)(F)F)O							46.2	
+7-Bromotetradecane	74036-97-8	53427780	CCCCCCCC(CCCCCC)Br							21	
+3-Methyl-1-phenylpyrazolone	89-25-8	4021	CC1=NN(C(=O)C1)C2=CC=CC=C2	7.1	-236.2		ND	ND	417	8.3	
+Zinc diethyldithiocarbamate	14324-55-1	26633	CCN(CC)C(=S)[S-].CCN(CC)C(=S)[S-].[Zn+2]							0.2	
+BGE	2426-08-6	17049	CCCCOCC1CO1	60.3	88.5	218.5	ND	ND	185.3	30.9	P
+1,3-Benzodioxazole-5-sulphonyl chloride	115010-10-1	4913401	C1OC2=C(O1)C=C(C=C2)S(=O)(=O)Cl							0.4	
+1-[3-(Cyclopentyl-oxy)-4-methoxy-phenyl]-4-oxocyclohexane carbonitrile	152630-47-2	9861604	COC1=C(C=C(C=C1)C2(CCC(=O)CC2)C#N)OC3CCCC3							NC	
+1,3-bis-(2,4-Diaminophenoxy)-propane x 4HCl	74918-21-1	21895880	C1=CC(=C(C=C1N)N)OCCCOC2=C(C=C(C=C2)N)N.Cl.Cl.Cl.Cl							12.3	
+3,4-dinitrophenol	577-71-9	11348	C1=CC(=C(C=C1O)[N+](=O)[O-])[N+](=O)[O-]							2.6	
+4-Chloro-6-iodoquinazoline	98556-31-1	11173809	C1=CC2=C(C=C1I)C(=NC=N2)Cl							IDR	
+4,4-Dibromobenzil	35578-47-3	96430	C1=CC(=CC=C1C(=O)C(=O)C2=CC=C(C=C2)Br)Br							20.5	
+Chloroantrol	57074-21-2	6426722	CC1=CC(=C(C(=C1Cl)O)C=O)O							0.4	P
+3-Propylidenephthalide	17369-59-4	5373603	CCC=C1C2=CC=CC=C2C(=O)O1	85.7	69.4	>2000	31.2	55.6	113	3.7	
+5-Methyleugenol	186743-25-9	15687968	CC1=CC(=C(C=C1CC=C)OC)O							13	
+Formulation 50	34494-04-7/NA									35	
+Dimethyl sulfone	67-71-0	6213	CS(=O)(=O)C							NC	
+5-Chloro-2,6-dimethoxy-4-methylquinoline	189746-19-8	18405981	CC1=CC(=NC2=C1C(=C(C=C2)OC)Cl)OC							NC	
+6-(Trifluoro-methyl)-2,3-dihydro-5-methyl-1h-indole, hydrochloride	280121-24-6	46735188	CC1=C(C=C2C(=C1)CCN2)C(F)(F)F.Cl							NC	
+Formulation 28	219714-96-2/83164-33-4									NC	
+1-(4-Methoxyphenyl)-1-penten-3-one	104-27-8	61008	CCC(=O)C=CC1=CC=C(C=C1)OC	75.8	14.3	14.78				9.3	
+Toluene 2,4-diisocyanate	584-84-9	11443	CC1=C(C=C(C=C1)N=C=O)N=C=O	54.5	23					0.028	
+1-Phenyloctane-1,3-dione	55846-68-1									11	
+8-Amino-6-methoxy-4-methyl-quinoline	57514-21-3	604753	CC1=C2C=C(C=C(C2=NC=C1)N)OC							NC	
+2,5-Diaminotoluene sulfate	615-50-9	22856	CC1=C(C=CC(=C1)N)N.OS(=O)(=O)O	100	85	5.4	40	40.4	116	0.4	P
+5-Amino-2-methylbenzene-sulfonamide	6973-09-7	235511	CC1=C(C=C(C=C1)N)S(=O)(=O)N							NC	
+Lauryl gallate	1166-52-5	14425	CCCCCCCCCCCCOC(=O)C1=CC(=C(C(=C1)O)O)O	100	91.3	1.11	2.02	2.91	8.2	0.3	P
+5-Amino-2-methylphenol	2835-95-2	17818	CC1=C(C=C(C=C1)N)O	10.8	87.5	325.28				3.8	
+1-Naphthol	90-15-3	7005	C1=CC=C2C(=C1)C=CC=C2O	55.8	17.4	129.62	18.3	12.7	57.2	1.3	
+2-Methyl-5-hydroxyethylaminophenol	55302-96-0	134396	CC1=C(C=C(C=C1)NCCO)O							0.4	
+[3aS-(3aalpha,4beta,5alpha,6alpha,8beta,9alpha,9abeta,10S*)]-6-Ethenyldecahydro-5-hydroxy-4,6,9,10-tetramethyl-1-oxo-3a,9-propano-3aH-cyclopentacycloocten-8-yl [(methylsulfonyl)-oxy]acetate	60924-38-1									NC	
+N-(2-chloro-4-pyrimidinyl)-n,2,3-trimethyl-2H-indazol-6-amine	444731-75-3	11608962	CC1=C2C=CC(=CC2=NN1C)N(C)C3=NC(=NC=C3)Cl							NC	
+N-(2-chloro-4-pyrimidinyl)-2,3-dimethyl-2H-indazol-6-amine	444731-74-2	11637631	CC1=C2C=CC(=CC2=NN1C)NC3=NC(=NC=C3)Cl							NC	
+Atranol	526-37-4	458186	CC1=CC(=C(C(=C1)O)C=O)O							0.6	P
+Formulation 20	145701-23-1/29450-45-1									43.7	
+(3R,6R)-3-(2,3-Dihydro-1H-inden-2-yl)-1-[(1R)-1-(2-methyl-1,3-oxazol-4-yl)-2-(4-morpholinyl)-2-oxoethyl]-6-[(1S)-1-methylpropyl]-2,5-piperazinedione	820957-38-8	11340891	CCC(C)C1C(=O)NC(C(=O)N1C(C2=COC(=N2)C)C(=O)N3CCOCC3)C4CC5=CC=CC=C5C4							NC	
+2-Phenylpropionaldehyde	93-53-8	7146	CC(C=O)C1=CC=CC=C1	100	78.8	26	38.2	44.5	37.9	6.3	
+(3as,4r,5s,6s,8r,9r,9ar,10r)-6-Ethenyldeca-hydro-5-hydroxy-4,6,9,10-tetramethyl-1-oxo-3a,9-propano-3ah-cyclopentacyclo-octen-8-yl [[(3-exo)-8-methyl-8-azabicyclo-[3.2.1]oct-3-yl]thio]-acetate	224452-66-8	6918462	CC1CCC23CCC(=O)C2C1(C(CC(C(C3C)O)(C)C=C)OC(=O)CSC4CC5CCC(C4)N5C)C							NC	
+Formulation 49	64700-56-7									7.3	
+Bronopol	52-51-7	2450	C(C(CO)([N+](=O)[O-])Br)O								P
+Beclomethasone-17-monopropionate	5534-18-9	62965	CCC(=O)OC1(C(CC2C1(CC(C3(C2CCC4=CC(=O)C=CC43C)Cl)O)C)C)C(=O)CO							NC	
+1-Bromohexane	111-25-1	8101	CCCCCCBr	10	0.5	128.1	ND	ND	163.3	10	
+Dimethyl fumarate	624-49-7	12215	COC(=O)C=CC(=O)OC								P
+Formulation 32	88671-89-0	6336	CCCCC(CN1C=NC=N1)(C#N)C2=CC=C(C=C2)Cl							4.3	
+Bacitracin	1405-87-4	65281	CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCCCCC(C(=O)NC(C(=O)N1)CCCN)NC(=O)C(C(C)CC)NC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C2CSC(=N2)C(C(C)CC)N)CC(=O)N)CC(=O)O)CC3=CN=CN3)CC4=CC=CC=C4								P
+p-Methylhydrocinnamic aldehyde	5406-12-2	64812	CC1=CC=C(C=C1)CCC=O							13.7	
+Yellow E-JD 3442	147703-65-9	44144885	CCC(COC1=CC=C(C=C1)N=NC2=CC(=C(C=C2)N=NC3=CC(=CC=C3)S(=O)(=O)[O-])NC(=O)C)O.[Na+]							NC	
+Amylcinnamyl alcohol	101-85-9	6076971	CCCCCC(=CC1=CC=CC=C1)CO							NC	P
+Hexane	110-54-3	8058	CCCCCC	100	100	562	Below	Below	ND	NC	N
+2,5-Diaminotoluene	95-70-5	7252	CC1=C(C=CC(=C1)N)N							0.2	
+Methyl 2-octynoate	111-12-6	8092	CCCCCC#CC(=O)OC							0.5	P
+4-Vinyl pyridine	100-43-6	7502	C=CC1=CC=NC=C1	7.9	100	9.73					
+NiSO4	10101-97-0	5284429	O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Ni+2]	-12	-1.7		42.2	45.1	150		
+3-Aminomethyl-3,5,5-trimethylcyclohexylamine	2855-13-2	17857	CC1(CC(CC(C1)(C)CN)N)C							1	
+HCA (Hexyl cinnamic aldehyde)	101-86-0	1550884	CCCCCCC(=CC1=CC=CC=C1)C=O	100	100	13	ND	ND	37	1.2	N
+7,12-Dimethylbenz[a]anthracene	57-97-6	6001	CC1=C2C=CC3=CC=CC=C3C2=C(C4=CC=CC=C14)C	100	98.2	1.32				0.006	
+Formulation 13	1928-43-4	61286	CCCCC(CC)COC(=O)COC1=C(C=C(C=C1)Cl)Cl							8.7	
+Ethyl-2-(hydroxymethyl)-1,3- propanediol triacrylate	15625-89-5	27423	CCC(COC(=O)C=C)(COC(=O)C=C)COC(=O)C=C							0.013	
+Oripavine	467-04-9	5462306	CN1CCC23C4C(=CC=C2C1CC5=C3C(=C(C=C5)O)O4)OC							8.6	
+Trans-2-hexenal	6728-26-3	5281168	CCCC=CC=O	97.9	96.4	83.36	6	5.7	18.9	5.5	
+alpha-Butyl cinnamic aldehyde	7492-44-6	5385520	CCCCC(=CC1=CC=CC=C1)C=O							11.22	
+Toluene diamine bismaleimide	6422-83-9	80893	CC1=C(C=C(C=C1)N2C(=O)C=CC2=O)N3C(=O)C=CC3=O							IDR	
+Formulation 24	99607-70-2	93528	CCCCCC(C)OC(=O)COC1=C2C(=C(C=C1)Cl)C=CC=N2							6.7	
+2'-4'-dihydroxychalcone	1776-30-3	5376979	C1=CC=C(C=C1)C=CC(=O)C2=C(C=C(C=C2)O)O							0.5	
+2,6-dimethylbenzoic acid	632-46-2	12439	CC1=C(C(=CC=C1)C)C(=O)O							NC	
+Undecylenic acid	112-38-9	5634	C=CCCCCCCCCC(=O)O	11.4	-0.1	27	Below	Below	ND	19.4	
+Dicyclohexylcarbodiimide	538-75-0	10868	C1CCC(CC1)N=C=NC2CCCCC2							0.057	
+Methyl 2-nonynoate	111-80-8	8137	CCCCCCC#CC(=O)OC	99.7	96.8	1.8	91.8	ND	191.7	2.5	
+4-Amino-3-nitrophenol	610-81-1	3758882	C1=CC(=C(C=C1O)[N+](=O)[O-])N							0.2	
+Formulation 12	6119-92-2	5284389	CCCCCCC(C)C1=CC(=CC(=C1OC(=O)C=CC)[N+](=O)[O-])[N+](=O)[O-]							1	
+M-Chloropropiophenone	34841-35-5	587128	CCC(=O)C1=CC(=CC=C1)Cl							NC	
+Dinocap EC	39300-45-3									0.8	
+Formulation 22	57213-69-1/81406-37-3									52.3	
+2-Methoxy-4-methyl-phenol	93-51-6	7144	CC1=CC(=C(C=C1)O)OC	100	88.5	>2000	30.8	207.4	280	5.4	
+1-(2,3-Epoxypropoxy)-2,2-bis[(2,3-epoxypropoxy)methylbutane	3454-29-3	103015	CCC(COCC1CO1)(COCC2CO2)COCC3CO3							1.4	
+Dimethyl 4-cyano-4-(3-cyclopentyloxy-4-methoxyphenyl)-pimelate	152630-48-3	10811164	COC1=C(C=C(C=C1)C(CCC(=O)OC)(CCC(=O)OC)C#N)OC2CCCC2							NC	
+Allyl acetate	591-87-7	11584	CC(=O)OCC=C							NC	
+1-Bromoundecane	693-67-4	12744	CCCCCCCCCCCBr							20	
+1-Chlorooctadecane	3386-33-2	18815	CCCCCCCCCCCCCCCCCCCl							16	
+Veratraldehyde	120-14-9	8419	COC1=C(C=C(C=C1)C=O)OC							3.2	
+1-Butanol	71-36-3	263	CCCCO	4.8	1.2	NAN	12429	14382	1000	NC	N
+1,2-Benzenedicarboxylic acid, dibutyl ester	84-74-2	3026	CCCCOC(=O)C1=CC=CC=C1C(=O)OCCCC	-1.2	1.3		ND	ND	>1000	NC	
+Diethyl sulfate	64-67-5	6163	CCOS(=O)(=O)OCC	26.2	9.6		240.4	ND	373	3.3	
+1-Bromododecane	143-15-7	8919	CCCCCCCCCCCCBr							18	
+Formulation 27	81406-37-3	54745	CCCCCCC(C)OC(=O)COC1=NC(=C(C(=C1Cl)N)Cl)F							6.1	
+Benzalchonium chloride	8001-54-5	2330	CCCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1	97.2	100	>2000	ND	ND	3	0.1	N
+Isopropyl myristate	110-27-0	8042	CCCCCCCCCCCCCC(=O)OC(C)C	94.1	100	>2000				44	N
+(4S)-1-(Tert-butoxycarbonyl)-4-fluoro-L-proline	203866-13-1	2756017	CC(C)(C)OC(=O)N1CC(CC1C(=O)O)F							NC	
+Oleic acid	112-80-1	445639	CCCCCCCCC=CCCCCCCCC(=O)O							10.5	
+Formulation 16	64470-88-8									6.6	
+3-Methyl-1-butanol	123-51-3	31260	CC(C)CCO							NC	
+Methyl hexadecenesulfonate	26452-48-2	53436962	CCCCCCCCCCCCCCC=CS(=O)(=O)OC							0.8	
+1-Chlorotetradecane	2425-54-9	17043	CCCCCCCCCCCCCCCl							20	
+Squaric acid	2892-51-5	17913	C1(=C(C(=O)C1=O)O)O	94.3	95.2	>2000				7.1	
+3-Phenylenediamine	108-45-2	7935	C1=CC(=CC(=C1)N)N							0.49	
+N-(2,6-Difluorophenyl)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidine-2-sulfonamide	98967-40-9	91759	CC1=NC2=NC(=NN2C=C1)S(=O)(=O)NC3=C(C=CC=C3F)F							NC	
+n-Methyl-n-nitrosourea	684-93-5	12699	CN(C(=O)N)N=O							0.05	
+4-HBA	99-96-7	135	C1=CC(=CC=C1C(=O)O)O	100	97.8	NAN	NAN	7617	600	NC	
+(alpha-r)-n-alpha-Dimethyl-3,5-bis(trifluoro-methyl	334477-60-0	16202291	CC(C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)NC							NC	
+Palmitoyl chloride	112-67-4	8206	CCCCCCCCCCCCCCCC(=O)Cl	60.1	26.6					8.8	
+n-Ethyl-n-nitrosourea	759-73-9	12967	CCN(C(=O)N)N=O							1.1	
+Formulation 14	76703-62-3	6440554	CC1(C(C1C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C=C(C(F)(F)F)Cl)C							4.6	
+Sodium ethyl xanthate	140-90-9	23690437	CCOC(=S)[S-].[Na+]							7.3	
+C15 Azalactone	176665-09-1	4348758	CCCCCCCCCCCCCCCC1=NC(C(=O)O1)(C)C							18	
+5-Methoxy-2-nitro-4-(trifluoromethyl)benzene acetonitrile	178896-77-0	10777719	COC1=CC(=C(C=C1C(F)(F)F)[N+](=O)[O-])CC#N							NC	
+1-Bromotetradecane	112-71-0	8208	CCCCCCCCCCCCCCBr							9.2	
+1-Bromohexadecane	112-82-3	8213	CCCCCCCCCCCCCCCCBr							1.3	
+Hexyl salicylate	6259-76-3	22629	CCCCCCOC(=O)C1=CC=CC=C1O	0	-0.4		ND	52.73	147.7	0.2	P
+1-Bromodocosane	6938-66-5	81355	CCCCCCCCCCCCCCCCCCCCCCBr							8.3	
+Cetylpyridinium chloride	773-52-6	31239	CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-]								N
+1-Iodohexadecane	544-77-4	11007	CCCCCCCCCCCCCCCCI			230.28				19	
+2,4,6-Trichloro-1,3,5-triazine	108-77-0	7954	C1(=NC(=NC(=N1)Cl)Cl)Cl	74.1	99.3					0.09	
+6-Methyl coumarin	92-48-8	7092	CC1=CC2=C(C=C1)OC(=O)C=C2	98.6	96	6	222	NAN	276.9	NC	
+Methyl dodecanesulfonate	2374-65-4	6365141	CCCCCCCCCCCCS(=O)(=O)OC							0.39	
+MCI/MI	Mixture			94.6	12.6		2.21	ND	3.2		P
+1,1-Dimethylethyl [(1S)-1-[bis(4-fluorophenyl)-methyl]-2-[(2S,4S)-2-cyano-4-fluoro-1-pyrrolidinyl]-2-oxoethyl]carbamate	483368-24-7									NC	
+1-Chlorononane	2473-01-0	17185	CCCCCCCCCCl							NC	
+R-Carvoxime	55658-55-4	97028	CC1=CCC(CC1=NO)C(=C)C							0.6	
+1-Bromotridecane	765-09-3	13000	CCCCCCCCCCCCCBr							10	
+3,3, 4,5-Tetrachlorosalicylanilide	1154-59-2	14385	C1=CC(=C(C=C1NC(=O)C2=CC(=CC(=C2O)Cl)Cl)Cl)Cl	63.2	91	1.18	ND	2.98	6.3	0.04	P
+Butyl acrylate	141-32-2	8846	CCCCOC(=O)C=C	100	85.1	37.74	184	227	332	11	
+Octanoic acid	124-07-2	379	CCCCCCCC(=O)O	100	99.1	NAN	ND	158.7	359	NC	N
+Chloramine-T hydrate	149358-73-6	16218604	CC1=CC=C(C=C1)S(=O)(=O)[N-]Cl.O.[Na+]	100	35.9		259.2	291	314.7		
+N,N-Dibutylaniline	613-29-6	61154	CCCCN(CCCC)C1=CC=CC=C1	-1.3	-0.9		ND	ND	250	19.6	
+n-[(1-Butyl-4-piperidinyl)methyl]-3,4-dihydro-2h-[1,3]oxazino[3,2-a]indole-10-carboxamide	152811-62-6	177336	CCCCN1CCC(CC1)CNC(=O)C2=C3N(CCCO3)C4=CC=CC=C42							NC	
+(s)-2-(4-Fluoro-2-methylphenyl)4-piperidinone (s)-alpha-hydroxybenzene-acetic acid salt	414910-13-7									NC	
+1-Iodononane	4282-42-2	20275	CCCCCCCCCI							24	
+2-(Hexadecyloxy)ethanol	2136-71-2	16492	CCCCCCCCCCCCCCCCOCCO							8.8	
+4-(Bromomethyl)-benzoic acid ethyl ester	26496-94-6	954261	CCOC(=O)C1=CC=C(C=C1)CBr							1.1E-8	
+Oxirane, mono((C12-14-alkyloxy)methyl) derivs	68609-97-2	56846565	CCCCCCCCCCCCCCOCC1CO1.CCCCCCCCCCCCCOCC1CO1.CCCCCCCCCCCCOCC1CO1							0.55	
+Butyl benzyl phthalate	85-68-7	2347	CCCCOC(=O)C1=CC=CC=C1C(=O)OCC2=CC=CC=C2	-0.8	-0.8		ND	ND	>1000	NC	
+3-Propoxybenzoic acid	190965-42-5	586799	CCCOC1=CC=CC(=C1)C(=O)O							NC	
+2,6-Dimethoxy-4-methyl-5-[3-(trifluoromethyl)-phenoxy]-8-quinolinamine	106635-86-3	9821104	CC1=CC(=NC2=C1C(=C(C=C2N)OC)OC3=CC=CC(=C3)C(F)(F)F)OC							NC	
+1-Iodotetradecane	19218-94-1	29507	CCCCCCCCCCCCCCI							14	
+Neomycin sulfate	1405-10-3	62403	C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)O)O)N)O)O)N.OS(=O)(=O)O							NC	P
+Propyl gallate	121-79-9	4947	CCCOC(=O)C1=CC(=C(C(=C1)O)O)O	98.4	86.6	6	NAN	32.4	125	IDR	P
+2-Bromotetradecanoic acid	10520-81-7	66340	CCCCCCCCCCCCC(C(=O)O)Br							3.4	
+1-Iododecane	4292-19-7	20282	CCCCCCCCCCCCI							13	
+Hydroxytyrosol	10597-60-1	82755	C1=CC(=C(C=C1CCO)O)O							0.61	
+Zinc dimethyldithiocarbamate	137-30-4	8722	CN(C)C(=S)[S-].CN(C)C(=S)[S-].[Zn+2]							1.2	
+rel-(3R,3aS,6aR)-Hexahydrofuro [2,3-b]furan-3-yl 4-nitrophenyl carbonate	252873-35-1	11266393	C1COC2C1C(CO2)OC(=O)OC3=CC=C(C=C3)[N+](=O)[O-]							IDR	
+2-Bromo-5-propoxybenzoic acid	190965-43-6	53429545	CCCOC1=CC(=C(C=C1)Br)C(=O)O							NC	
+(2-Bromo-5-propoxyphenyl)(2-hydroxy-4-methoxyphenyl)-methanone	190965-45-8	53420364	CCCOC1=CC(=C(C=C1)Br)C(=O)C2=C(C=C(C=C2)OC)O							NC	
+Steptomycine sulfate	3810-74-0	19648	CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O.CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O	100	95.5	>2000	ND	ND	1000	33.3	
+Formulation 26	1702-17-6/64700-56-7									18.3	
+Cinnamic alcohol	104-54-1	5315892	C1=CC=C(C=C1)C=CCO	100	84.9	20	101.6	196.6	350	21	P
+2-Ethylhexyl acrylate	103-11-7	7636	CCCCC(CC)COC(=O)C=C	100	65.9	35.02	99.96	103.77	280	9.7	
+Formulation 6	150114-71-9/64700-56-7									23.7	
+Clofibrate	637-07-0	2796	CCOC(=O)C(C)(C)OC1=CC=C(C=C1)Cl	97.7	98.1	>2000	537.2	883.7	>1000	NC	
+2-Mercaptobenzoxazole	2382-96-9	712377	C1=CC=C2C(=C1)NC(=S)O2							NC	
+Alpha-(p-toluenesulfonyl)-4-fluorobenzyliso-nitrile	165806-95-1	10827289	CC1=CC=C(C=C1)S(=O)(=O)C(C2=CC=C(C=C2)F)[N+]#[C-]							IDR	
+1-Iodooctadecane	629-93-6	12402	CCCCCCCCCCCCCCCCCCI							NC	
+4-(Methylamino)phenol sulfate	55-55-0	5930	CNC1=CC=C(C=C1)O.CNC1=CC=C(C=C1)O.OS(=O)(=O)O	100	55.3	3.2				0.8	P
+4-[4-[[(3R)-1-Butyl-3-[(R)-cyclohexyl-hydroxymethyl]-2,5-dioxo-1,4,9-triazaspiro[5,5]-undec-9-yl]methyl] phenoxy] benzoic acid	461443-59-4	3001322	CCCCN1C(=O)C(NC(=O)C12CCN(CC2)CC3=CC=C(C=C3)OC4=CC=C(C=C4)C(=O)O)C(C5CCCCC5)O							NC	
+CD-3	92-09-1	66693	CCN(CCNS(=O)(=O)C)C1=CC(=C(C=C1)N)C							0.2	
+4-(N-Ethyl-N-2-methan-sulfamido-ethyl)-2-methyl-1,4,-phenylenediamine	25646-71-3	91578	CCN(CCNS(=O)(=O)C)C1=CC(=C(C=C1)N)C.CCN(CCNS(=O)(=O)C)C1=CC(=C(C=C1)N)C.OS(=O)(=O)O.OS(=O)(=O)O.OS(=O)(=O)O	90.1	86.4	1.98	10.73	16.37	24.5	0.6	
+6-(Diethylamino)-1-hexanol	06947-12-2									10.1	
+(4S,5R)-1-[(1R,2R,3S)-3-(1,3-Benzodioxol-5-yl)-1-(2-benzyloxy-4-methoxyphenyl)-1-hydroxy-6-propoxy-2-indanoyl]-3,4-dimethyl-5-phenyl-2-imidazolidinone	190965-47-0	57370961	CCCOC1=CC2=C(C=C1)C(C(C2(C3=C(C=C(C=C3)OC)OCC4=CC=CC=C4)O)C(=O)N5C(C(N(C5=O)C)C)C6=CC=CC=C6)C7=CC8=C(C=C7)OCO8							NC	
+Formulation 29	8018-01-7/57966-95-7									NC	
+Vanillin	121-33-5	1183	COC1=C(C=CC(=C1)C=O)O	96.8	100	83	NAN	NAN	650	NC	N
+1-(2',5' Dimethylphenyl)butane-1,3-dione	56290-55-2									13	
+6-Chlorocoumarin	2051-59-4	16321	C1=CC2=C(C=CC(=O)O2)C=C1Cl							2.8	
+Amyl cinnamic aldehyde	122-40-7	31209	CCCCCC(=CC1=CC=CC=C1)C=O	99.4	96.1	>2000	ND	25.94	24.2	10.6	P
+n-[2-(Diethylamino)ethyl]-2-[[(4-fluorophenyl)-methyl]thio]-4,5,6,7-tetrahydro-4-oxo-n-[[4'-(trifluoromethyl)-[1,1'-biphenyl]-4-yl]methyl]-1h-cyclopentapyrim-idine-1-acetamide	356057-34-6	9939609	CCN(CC)CCN(CC1=CC=C(C=C1)C2=CC=C(C=C2)C(F)(F)F)C(=O)CN3C4=C(CCC4)C(=O)N=C3SCC5=CC=C(C=C5)F							10.8	
+Disperse Blue 106	12223-01-7	108061	CCN(CCO)C1=CC(=C(C=C1)N=NC2=NC=C(S2)[N+](=O)[O-])C							0.008	
+Clotrimazole	23593-75-1	2812	C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3=CC=CC=C3Cl)N4C=CN=C4							4.8	
+Diethyl maleate	141-05-9	5271566	CCOC(=O)C=CC(=O)OCC	100	85.5	2	64	NAN	120	2	P
+Diethyl toluamide	134-62-3	4284	CCN(CC)C(=O)C1=CC(=CC=C1)C	-0.2	-0.3		ND	ND	504.2	NC	N
+Oxyfluorfen EC	42874-03-3	39327	CCOC1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-]							18.1	
+6-Diethylaminohexyl bromide hydrobromide	64993-14-2	45074537	CCN(CC)CCCCCCBr.Cl							5.3	
+Benzocaine	94-09-7	2337	CCOC(=O)C1=CC=C(C=C1)N	100	100	18.2	74.2	ND	545.5	1.8	P
+(S)-(-)-1-Phenylpropylamine	3789-59-1	6993773	CCC(C1=CC=CC=C1)N							NC	
+Diethanolamine	111-42-2	8113	C(CO)NCCO								N
+Cyclohex-3-ene-1-carboxylic acid	4771-80-6	20903	C1CC(CC=C1)C(=O)O							9.3	
+N-(2-Hydroxyethyl)-ethylendiamine	111-41-1	8112	C(CNCCO)N							15.2	
+2-Chloro-6-nitrotoluene	83-42-1	6740	CC1=C(C=CC=C1Cl)[N+](=O)[O-]							NC	
+Ethyl (Z)-alpha-((2-(tert-butoxy)-1,1-dimethyl-2-oxoethoxy)imino)-2-(tritylamino)thiazol-4-acetate	68672-65-1	20429686	CCOC(=O)C(=NOC(C)(C)C(=O)OC(C)(C)C)C1=CSC(=N1)NC(C2=CC=CC=C2)(C3=CC=CC=C3)C4=CC=CC=C4							NC	
+N-[(1,1-Dimethylethoxy)-carbonyl]-l-tyrosine, ethyl ester	72594-77-5	11077750	CCOC(=O)C(CC1=CC=C(C=C1)O)NC(=O)OC(C)(C)C							NC	
+Ethyl (3-endo)-8-methyl-8-azabicyclo[3.2.1]-octane-3-acetate	56880-11-6	10608569	CCOC(=O)CC1CC2CCC(C1)N2C							5.5	
+1-(2',5'-diethylphenyl)butane-1,3,-dione	167998-76-7									9.6	
+Ethyl 2,6-dichloro-5-fluoro-beta-oxo-3-pyridinepropanoate	96568-04-6									NC	
+trans-2-Decenal	3913-71-1	5283345	CCCCCCCC=CC=O	5.1	90.3	11.3				2.5	
+Nonanoyl chloride	764-85-2	69819	CCCCCCCCC(=O)Cl	23	-1.1					1.8	
+Ethyl benzoylacetate	94-02-0	7170	CCOC(=O)CC(=O)C1=CC=CC=C1	88.8	99.1	63.37	ND	ND	571.1	NC	
+1,1-Dimethylethyl [(1S)-2-[4-[(2-methyl-4-thiazolyl) methoxy] phenyl]-1-(2S)-oxiranylethyl]-carbamate	313680-92-1	11618051	CC1=NC(=CS1)COC2=CC=C(C=C2)CC(C3CO3)NC(=O)OC(C)(C)C							NC	
+2-(4-Oxopentyl)-1h-isoindole-1,3(2h)-dione	3197-25-9	236270	CC(=O)CCCN1C(=O)C2=CC=CC=C2C1=O							NC	
+2-(4-Ethoxyphenyl)-3-[4-(methyl-sulfonyl)phenyl-]pyrazolo[1,5-b]-pyridazine	221148-46-5	9832687	CCOC1=CC=C(C=C1)C2=NN3C(=C2C4=CC=C(C=C4)S(=O)(=O)C)C=CC=N3							NC	
+Formulation 11	219714-96-2/34256-82-1									9.2	
+Formulation 56	1929-82-4	16004	C1=CC(=NC(=C1)Cl)C(Cl)(Cl)Cl							4.2	
+Isopropyl glycerol ether	17226-43-6	240392	CC(C)OCC(CO)O							NC	
+7-[(4z)-3-(Aminomethyl)-4-(methoxyimino)-1-pyrrolidinyl]-1-cyclopropyl-6-fluoro-1,4-dihydro-4-oxo-1,8-naphthyridine-3-carboxylic acid, monomethane-sulfonate	210353-53-0	9588170	CON=C1CN(CC1CN)C2=C(C=C3C(=O)C(=CN(C3=N2)C4CC4)C(=O)O)F.CS(=O)(=O)O							8.6	
+Clove bud oil	8000-34-8	12658395	COC(=O)C(CC1=CN=CN1)N.Cl							7	
+(3-endo)-8-methyl-8-azabicyclo[3.2.1]-octan-3-ol	120-29-6	8424	CN1C2CCC1CC(C2)O							8.9	
+2-Methyl-4,5-trimethylene-4-isothiazolin-3-one	82633-79-2	158190	CN1C(=O)C2=C(S1)CCC2							1.8	
+Methyl acrylate	96-33-3	7294	COC(=O)C=C	84.9	60.3	124				20	
+MS (Methyl salicylate)	119-36-8	4133	COC(=O)C1=CC=CC=C1O	99.7	98.4	383	NAN	NAN	542.4	11.5	N
+Vinylidene dichloride	75-35-4	6366	C=C(Cl)Cl	99.2	100	>2000				NC	
+Methyl 4-(bromomethyl)benzoate	2417-72-3	256687	COC(=O)C1=CC=C(C=C1)CBr							IDR	
+beta-Terpinene	99-84-3	66841	CC(C)C1=CCC(=C)CC1							NC	
+Diethyl phthalate	84-66-2	6781	CCOC(=O)C1=CC=CC=C1C(=O)OCC	99.2	100	582.7	ND	296.6	600	NC	N
+Methyl methanesulfonate	66-27-3	4156	COS(=O)(=O)C	93	89.7	48.03	ND	ND	26.7	8.1	
+Methyl 4-hydroxybenzoate	99-76-3	7456	COC(=O)C1=CC=C(C=C1)O	96.4	100	805.35				NC	
+3-Methyl-4-phenyl-1,2,5-thiadiazole-1,1-dioxide	3775-21-1	12104328	CC1=NS(=O)(=O)N=C1C2=CC=CC=C2							1.4	
+Dimethyl isophthalate	1459-93-4	15088	COC(=O)C1=CC(=CC=C1)C(=O)OC			694.9				NC	
+Methyl pyruvate	600-22-6	11748	CC(=O)C(=O)OC	-0.5	11.8		ND	ND	>5000	2.4	
+Chlorhexidine		9552079	C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl	-2.2	-1						
+2,4,6-Trinitrobenzenesulfonic acid		498085	CC1=CC=C(C=C1)S[S+](C)C2=CC=C(C=C2)C.C1=C(C=C(C(=C1[N+](=O)[O-])S(=O)(=O)O)[N+](=O)[O-])[N+](=O)[O-]	99.7	22.6	23	Below	71	ND		
+Reactive yellow		CSID:21171320		82.1	79.3						
+Basic blue 99		5484230	C[N+](C)(C)C1=CC=CC(=C1)NC2=CC(=C3C(=C(C=C(C3=O)Br)N)C2=O)N.[Cl-]	47.3	10.5						
+Methyl-2-nonynoate		22078052	CCCCCC(C)C#CC(=O)O	100	3.2						
+Toluene 2,6-diisocyanate		7040	CC1=C(C=CC=C1N=C=O)N=C=O	87.4	26.3						
+a-Hexyl-cinnamic aldehyde		7585	CCCCCCC(=CC1=CC=CC=C1)C=O	1	1		Below	98	ND		
+Methyldibromo glutaronitrile		11963115	CC(CC#N)C(C#N)(Br)Br	75.3	28.4	7	39	Below	ND		
+Diphenylmethane diisocyanate		7570	C1=CC(=CC=C1CC2=CC=C(C=C2)N=C=O)N=C=O	83.5	25.1						
+Tetrachlorosalicylanilide		124579	C1=CC=C(C=C1)NC(=O)C2=C(C(=C(C(=C2Cl)Cl)Cl)Cl)O	96.5	9						
+2,7-Heptadienal		20307	CCC=CC=CC=O	97.3	23.9						
+Hexamethylene diisocyanate		13192	C(CCCN=C=O)CCN=C=O	100	35						
+Kathon CG		41679	CN1C(=O)C=CS1.CN1C(=O)C=C(S1)Cl	99.5	4.5						
+Tartaric acid		875	C(C(C(=O)O)O)(C(=O)O)O				Below	Below	ND		
+Oxazolone		27435	CCOC=C1C(=O)OC(=N1)C2=CC=CC=C2	89.3	49.6		Below	Below	ND		
+Piperazine		4837	C1CNCCN1	1.6	-2						
+Black GR reactive dye		9570329	C1=CC(=CC=C1NN=C2C(=CC3=CC(=C(C(=C3C2=O)N)N=NC4=CC=C(C=C4)S(=O)(=O)CCOS(=O)(=O)[O-])S(=O)(=O)[O-])S(=O)(=O)[O-])S(=O)(=O)CCOS(=O)(=O)[O-].[Na+].[Na+].[Na+].[Na+]	77.3	99.5						
+Tetrachlorophthalic anhydride		8326	C12=C(C(=C(C(=C1Cl)Cl)Cl)Cl)C(=O)OC2=O	2.3	84.3						
+Orange 3R reactive dye		6509773	CC(=O)NC1=CC2=C(C=C1)C=C(C(=NNC3=CC=C(C=C3)S(=O)(=O)CCOS(=O)(=O)[O-])C2=O)S(=O)(=O)[O-].[Na+].[Na+]	93.5	97.3						
+Precursor surfactant 2	NA									24	
+Non-ionic surfactant 7	NA									23.7	
+Saturated diglycerin	NA									NC	
+Formulation 9	NA									NC	
+1-(2',3',4',5'-Tetramethylphenyl)-3-(4'-tetrabutylphenyl)-propane-1,3-dione	NA									NC	
+Isopropylricinoleamide	NA									NC	
+DU-2F	NA									15.6	
+(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexane	NA									7.3	
+DU-2B	NA									12.4	
+(1R,4R)-4-Isopropenyl-1-methyl-2-methylenecyclohexane	NA									NC	
+DU-2A	NA									1.2	
+Non-ionic surfactant 9	NA									10.5	
+Non-ionic surfactant 2	NA									47.1	
+Non-ionic surfactant 1	NA									27.5	
+(4Z)-2-Methyl-6-methyleneoct-4-ene	NA									NC	
+Non-ionic surfactant 4	NA									0.012	
+MC-2500	NA									5	
+Non-ionic surfactant 6	NA									34.4	
+Linalool aldehyde	NA									9.5	
+DU-5A	NA									NC	
+DU-11C	NA									NC	
+FAR01060-00	NA									88.5	
+Fx + Me EW 69	NA									25.2	
+(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexene	NA									7.3	
+(1R,4R)-Isopropenyl-1-methyl-2-methylene-2-cyclohexane	NA									NC	
+BASF #1	NA									31.2	
+Unsaturated fatty acid	NA									22.2	
+A SC600	NA									NC	
+bis-1,3-(2',5'-dimethylphenyl)-propane-1,3-dione	NA									NC	
+BASF SE-1	NA									5.5	
+NAVY 14 08 723	NA									IDR	
+Dispersionsrot 2754	NA									NC	
+TW-25B	NA									32.9	
+Dibenzodioxocin	NA									7.5	
+Non-ionic surfactant 8	NA									45.7	
+DU-8A	NA									NC	
+Precursor surfactant 1	NA									60.7	
+DU-7	NA									NC	
+DU-13B	NA									NC	
+D EW 15	NA									NC	
+DU-13A	NA									NC	
+C.I. Reactive red 231	NA									0.6	
+DU-2D	NA									2.5	
+FAR01042-00	NA									NC	
+DU-2C	NA									62.9	
+DU-8B	NA									NC	
+Toluene 2,4/2,6-diisocyanate				15.9	18.5						
+DU-12	NA									NC	
+BASF SC-1	NA									NC	
+Unsaturated fatty acid ester	NA									27.1	
+DU-10	NA									NC	
+DU-11A	NA									IDR	
+Royco 634	NA									31.7	
+Bakelite EPR 161	NA									0.7	
+Methyl(2-sulfomethyl) octadecanoate	NA									2	
+D EC25?	NA									NC	
+DU-4	NA									NC	
+DU-5B	NA									NC	
+DU-1A	NA									NC	
+Fatty alcohol #2	NA									8.6	
+4-Isopropyl-1-methylenecyclohexane	NA									NC	
+MC-25	NA									45	
+Pluronic L92?	NA									NC	
+Bakelite EPR 164	NA									0.2	
+Formulation 1	NA									NC	
+BASF #5	NA									36.9	
+DU-11B	NA									NC	
+Non-ionic surfactant 3	NA									19.8	
+EXP 10810 A	NA									2.1	
+AE F016382 00 TK71 A101	NA									NC	
+DU-1C	NA									NC	
+Sultone C12	NA									7.7 nmol	
+BASF #4	NA									14.1	
+Bakelite EPR 162	NA									0.1	
+DU-1B	NA									NC	
+DU-2E	NA									NC	
+DU-3	NA									NC	
+EXP 11120 A	NA									64.9	
+DU-9B	NA									NC	
+Break-Free CLP	NA									30.8	
+Linalool alcohol	NA									NC	
+DU-5C	NA									NC	
+Formulation 54	NA									NC	
+DU-9A	NA									2.65	
+BASF #3	NA									1.6	
+DU-1D	NA									NC	
+Non-ionic surfactant 5	NA									37.5	
+Crotonyl thioglycerol	NA									NC	
+BASF #2	NA									29.7	
+BASF #6	NA									3.3	
+Fatty acid glutamate	NA									75	
+Fatty alcohol #1	NA									7.6	
+F & Fo WG 50 + 25	NA									0.003	
+Laurylglycerin derivative	NA									24.3	
+C19 Azalactone	NA									26	
+DU-6	NA									NC	
